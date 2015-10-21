@@ -33,7 +33,7 @@
             this.contract_tb = new System.Windows.Forms.RichTextBox();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.copyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.importButton = new System.Windows.Forms.Button();
+            this.addGoalSheetButton = new System.Windows.Forms.Button();
             this.clearButton = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -87,7 +87,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.nextButton = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -134,21 +134,21 @@
             this.copyToolStripMenuItem.Text = "Copy";
             this.copyToolStripMenuItem.Click += new System.EventHandler(this.copyToolStripMenuItem_Click);
             // 
-            // importButton
+            // addGoalSheetButton
             // 
-            this.importButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.importButton.Location = new System.Drawing.Point(62, 629);
-            this.importButton.Name = "importButton";
-            this.importButton.Size = new System.Drawing.Size(125, 44);
-            this.importButton.TabIndex = 2;
-            this.importButton.Text = "Import";
-            this.importButton.UseVisualStyleBackColor = true;
-            this.importButton.Click += new System.EventHandler(this.importButton_Click);
+            this.addGoalSheetButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addGoalSheetButton.Location = new System.Drawing.Point(22, 629);
+            this.addGoalSheetButton.Name = "addGoalSheetButton";
+            this.addGoalSheetButton.Size = new System.Drawing.Size(196, 44);
+            this.addGoalSheetButton.TabIndex = 2;
+            this.addGoalSheetButton.Text = "Add Goal Sheet";
+            this.addGoalSheetButton.UseVisualStyleBackColor = true;
+            this.addGoalSheetButton.Click += new System.EventHandler(this.importButton_Click);
             // 
             // clearButton
             // 
             this.clearButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.clearButton.Location = new System.Drawing.Point(268, 629);
+            this.clearButton.Location = new System.Drawing.Point(315, 629);
             this.clearButton.Name = "clearButton";
             this.clearButton.Size = new System.Drawing.Size(125, 44);
             this.clearButton.TabIndex = 3;
@@ -161,7 +161,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.OldLace;
+            this.panel1.BackColor = System.Drawing.Color.Ivory;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.dateTimePicker3);
             this.panel1.Controls.Add(this.dateTimePicker2);
@@ -233,7 +233,7 @@
             this.dateTimePicker2.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.dateTimePicker2.CalendarForeColor = System.Drawing.Color.Coral;
             this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dateTimePicker2.Location = new System.Drawing.Point(445, 123);
+            this.dateTimePicker2.Location = new System.Drawing.Point(442, 123);
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(97, 20);
             this.dateTimePicker2.TabIndex = 2;
@@ -253,7 +253,7 @@
             // 
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(345, 122);
+            this.label21.Location = new System.Drawing.Point(342, 122);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(94, 20);
             this.label21.TabIndex = 58;
@@ -261,7 +261,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(214, 123);
+            this.textBox1.Location = new System.Drawing.Point(210, 123);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(106, 20);
             this.textBox1.TabIndex = 2;
@@ -270,7 +270,7 @@
             // 
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(28, 123);
+            this.label20.Location = new System.Drawing.Point(24, 123);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(180, 20);
             this.label20.TabIndex = 57;
@@ -637,7 +637,7 @@
             // 
             // participantName_tb
             // 
-            this.participantName_tb.Location = new System.Drawing.Point(617, 76);
+            this.participantName_tb.Location = new System.Drawing.Point(612, 76);
             this.participantName_tb.Name = "participantName_tb";
             this.participantName_tb.Size = new System.Drawing.Size(194, 20);
             this.participantName_tb.TabIndex = 1;
@@ -646,7 +646,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(437, 76);
+            this.label6.Location = new System.Drawing.Point(432, 76);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(174, 20);
             this.label6.TabIndex = 16;
@@ -717,7 +717,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(21, 76);
+            this.label3.Location = new System.Drawing.Point(16, 76);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(200, 20);
             this.label3.TabIndex = 2;
@@ -725,7 +725,7 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(227, 76);
+            this.dateTimePicker1.Location = new System.Drawing.Point(222, 76);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(197, 20);
             this.dateTimePicker1.TabIndex = 0;
@@ -741,19 +741,19 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Participant\'s Objective 1";
             // 
-            // button1
+            // nextButton
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(1153, 629);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(125, 44);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Next >>";
-            this.button1.UseVisualStyleBackColor = true;
+            this.nextButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nextButton.Location = new System.Drawing.Point(1153, 629);
+            this.nextButton.Name = "nextButton";
+            this.nextButton.Size = new System.Drawing.Size(125, 44);
+            this.nextButton.TabIndex = 6;
+            this.nextButton.Text = "Next >>";
+            this.nextButton.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(409, 650);
+            this.button2.Location = new System.Drawing.Point(455, 650);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 7;
@@ -799,10 +799,10 @@
             this.ClientSize = new System.Drawing.Size(1290, 680);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.nextButton);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.clearButton);
-            this.Controls.Add(this.importButton);
+            this.Controls.Add(this.addGoalSheetButton);
             this.Controls.Add(this.contract_tb);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "CreateNoteForm1";
@@ -822,7 +822,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.RichTextBox contract_tb;
-        private System.Windows.Forms.Button importButton;
+        private System.Windows.Forms.Button addGoalSheetButton;
         private System.Windows.Forms.Button clearButton;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.Panel panel1;
@@ -833,7 +833,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button nextButton;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.RichTextBox details1_rtb;
         private System.Windows.Forms.RichTextBox details2_rtb;
