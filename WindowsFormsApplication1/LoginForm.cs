@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApplication1
 {
-    public partial class Form1 : Form
+    public partial class LoginForm : Form
     {
-        public Form1()
+        public LoginForm()
         {
             InitializeComponent();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Form3 form3 = new Form3();
+            CreateNoteForm1 form3 = new CreateNoteForm1();
             form3.Visible = true;
         }
 

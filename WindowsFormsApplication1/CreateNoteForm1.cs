@@ -13,9 +13,9 @@ using System.IO;
 
 namespace WindowsFormsApplication1
 {
-    public partial class Form3 : Form
+    public partial class CreateNoteForm1 : Form
     {
-        public Form3()
+        public CreateNoteForm1()
         {
             InitializeComponent();
 
@@ -59,6 +59,7 @@ namespace WindowsFormsApplication1
         StreamReader openFile;
         string fileName;
 
+       
         
         /**********************************************************
         * This is the method that send the text from the word doc
@@ -67,7 +68,7 @@ namespace WindowsFormsApplication1
         ***********************************************************/
         private void TextToBox()
         {
-
+            
             try
             {
 
@@ -161,6 +162,50 @@ namespace WindowsFormsApplication1
             {
                 MessageBox.Show("The file could not be saved: " + ex.Message);
             }
+        }
+
+        private void copyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            contract_tb.Copy();
+    }
+
+        private void copyToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            objective1_rtb.Copy();
+            /*objective2_rtb.Copy();
+            objective3_rtb.Copy();
+            objective4_rtb.Copy();
+            details1_rtb.Copy();
+            details2_rtb.Copy();
+            details3_rtb.Copy();
+            details4_rtb.Copy();
+            contract_tb.Copy();*/
+        }
+
+        private void cutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            objective1_rtb.Cut();
+            /*objective2_rtb.Cut();
+            objective3_rtb.Cut();
+            objective4_rtb.Cut();
+            details1_rtb.Cut();
+            details2_rtb.Cut();
+            details3_rtb.Cut();
+            details4_rtb.Cut();
+            contract_tb.Cut();*/
+        }
+
+        private void pasteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            objective1_rtb.Paste();
+            /*objective2_rtb.Paste();
+            objective3_rtb.Paste();
+            objective4_rtb.Paste();
+            details1_rtb.Paste();
+            details2_rtb.Paste();
+            details3_rtb.Paste();
+            details4_rtb.Paste();
+            contract_tb.Paste();*/
         }
     }
 

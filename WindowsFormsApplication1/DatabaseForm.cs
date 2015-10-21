@@ -11,9 +11,9 @@ using MySql.Data.MySqlClient;
 
 namespace WindowsFormsApplication1
 {
-    public partial class Form2 : Form
+    public partial class DatabaseForm : Form
     {
-        public Form2()
+        public DatabaseForm()
         {
             InitializeComponent();
         }
