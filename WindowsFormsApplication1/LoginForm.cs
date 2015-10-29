@@ -24,6 +24,9 @@ namespace WindowsFormsApplication1
 
             CreateNoteForm2 form4 = new CreateNoteForm2();
             form4.Visible = true;
+
+            BodyCheck bodycheck = new BodyCheck();
+            bodycheck.Visible = true;
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
