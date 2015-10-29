@@ -30,7 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CreateNoteForm1));
-            this.contract_tb = new System.Windows.Forms.RichTextBox();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.copyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.addGoalSheetButton = new System.Windows.Forms.Button();
@@ -47,15 +46,13 @@
             this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.departureTime = new System.Windows.Forms.DateTimePicker();
+            this.arrivalTime = new System.Windows.Forms.DateTimePicker();
             this.label22 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label20 = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.objective_cb4 = new System.Windows.Forms.ComboBox();
+            this.objective_cb3 = new System.Windows.Forms.ComboBox();
+            this.objective_cb2 = new System.Windows.Forms.ComboBox();
             this.objective_cb1 = new System.Windows.Forms.ComboBox();
             this.objective4_rtb = new System.Windows.Forms.RichTextBox();
             this.label16 = new System.Windows.Forms.Label();
@@ -92,24 +89,16 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.CurrentDateTime_CF1 = new System.Windows.Forms.DateTimePicker();
             this.label2 = new System.Windows.Forms.Label();
+            this.contract_tb = new System.Windows.Forms.RichTextBox();
+            this.departureTimeDesc_tb = new System.Windows.Forms.TextBox();
+            this.arrivalTimeDesc_tb = new System.Windows.Forms.TextBox();
             this.contextMenuStrip1.SuspendLayout();
             this.contextMenuStrip2.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // contract_tb
-            // 
-            this.contract_tb.ContextMenuStrip = this.contextMenuStrip1;
-            this.contract_tb.EnableAutoDragDrop = true;
-            this.contract_tb.Location = new System.Drawing.Point(22, 40);
-            this.contract_tb.Name = "contract_tb";
-            this.contract_tb.ReadOnly = true;
-            this.contract_tb.Size = new System.Drawing.Size(418, 583);
-            this.contract_tb.TabIndex = 1;
-            this.contract_tb.Text = "";
             // 
             // contextMenuStrip1
             // 
@@ -189,6 +178,7 @@
             this.nextButton.TabIndex = 6;
             this.nextButton.Text = "Next >>";
             this.nextButton.UseVisualStyleBackColor = true;
+            this.nextButton.Click += new System.EventHandler(this.nextButton_Click);
             // 
             // button2
             // 
@@ -240,34 +230,36 @@
             this.pictureBox1.TabIndex = 107;
             this.pictureBox1.TabStop = false;
             // 
-            // dateTimePicker3
+            // departureTime
             // 
-            this.dateTimePicker3.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.dateTimePicker3.CalendarForeColor = System.Drawing.Color.Coral;
-            this.dateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dateTimePicker3.Location = new System.Drawing.Point(1155, 157);
-            this.dateTimePicker3.Name = "dateTimePicker3";
-            this.dateTimePicker3.Size = new System.Drawing.Size(97, 20);
-            this.dateTimePicker3.TabIndex = 113;
-            this.dateTimePicker3.Value = new System.DateTime(2015, 10, 21, 16, 0, 0, 0);
+            this.departureTime.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.departureTime.CalendarForeColor = System.Drawing.Color.Coral;
+            this.departureTime.CustomFormat = "h:mm tt";
+            this.departureTime.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.departureTime.Location = new System.Drawing.Point(618, 578);
+            this.departureTime.Name = "departureTime";
+            this.departureTime.Size = new System.Drawing.Size(67, 20);
+            this.departureTime.TabIndex = 113;
+            this.departureTime.Value = new System.DateTime(2015, 10, 21, 15, 0, 0, 0);
             // 
-            // dateTimePicker2
+            // arrivalTime
             // 
-            this.dateTimePicker2.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.dateTimePicker2.CalendarForeColor = System.Drawing.Color.Coral;
-            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dateTimePicker2.Location = new System.Drawing.Point(897, 157);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(97, 20);
-            this.dateTimePicker2.TabIndex = 114;
-            this.dateTimePicker2.Value = new System.DateTime(2015, 10, 21, 10, 0, 0, 0);
+            this.arrivalTime.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.arrivalTime.CalendarForeColor = System.Drawing.Color.Coral;
+            this.arrivalTime.CustomFormat = "h:mm tt";
+            this.arrivalTime.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.arrivalTime.Location = new System.Drawing.Point(594, 146);
+            this.arrivalTime.Name = "arrivalTime";
+            this.arrivalTime.Size = new System.Drawing.Size(67, 20);
+            this.arrivalTime.TabIndex = 114;
+            this.arrivalTime.Value = new System.DateTime(2015, 10, 21, 9, 0, 0, 0);
             // 
             // label22
             // 
             this.label22.AutoSize = true;
             this.label22.BackColor = System.Drawing.Color.White;
             this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(1026, 156);
+            this.label22.Location = new System.Drawing.Point(495, 578);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(123, 20);
             this.label22.TabIndex = 154;
@@ -278,34 +270,16 @@
             this.label21.AutoSize = true;
             this.label21.BackColor = System.Drawing.Color.White;
             this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(797, 156);
+            this.label21.Location = new System.Drawing.Point(495, 146);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(94, 20);
             this.label21.TabIndex = 153;
             this.label21.Text = "Arrival Time:";
             // 
-            // textBox1
+            // objective_cb4
             // 
-            this.textBox1.Location = new System.Drawing.Point(665, 157);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(106, 20);
-            this.textBox1.TabIndex = 115;
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.BackColor = System.Drawing.Color.White;
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(479, 157);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(180, 20);
-            this.label20.TabIndex = 152;
-            this.label20.Text = "Participant\'s ID Number:";
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
+            this.objective_cb4.FormattingEnabled = true;
+            this.objective_cb4.Items.AddRange(new object[] {
             "(D1)",
             "(D2)",
             "(D3)",
@@ -316,16 +290,16 @@
             "(D8)",
             "(D9)",
             "(D10)"});
-            this.comboBox3.Location = new System.Drawing.Point(1055, 407);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(44, 21);
-            this.comboBox3.TabIndex = 136;
-            this.comboBox3.Text = "(D1)";
+            this.objective_cb4.Location = new System.Drawing.Point(1055, 376);
+            this.objective_cb4.Name = "objective_cb4";
+            this.objective_cb4.Size = new System.Drawing.Size(44, 21);
+            this.objective_cb4.TabIndex = 136;
+            this.objective_cb4.Text = "(D1)";
             // 
-            // comboBox2
+            // objective_cb3
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.objective_cb3.FormattingEnabled = true;
+            this.objective_cb3.Items.AddRange(new object[] {
             "(C1)",
             "(C2)",
             "(C3)",
@@ -336,16 +310,16 @@
             "(C8)",
             "(C9)",
             "(C10)"});
-            this.comboBox2.Location = new System.Drawing.Point(673, 408);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(44, 21);
-            this.comboBox2.TabIndex = 128;
-            this.comboBox2.Text = "(C1)";
+            this.objective_cb3.Location = new System.Drawing.Point(673, 377);
+            this.objective_cb3.Name = "objective_cb3";
+            this.objective_cb3.Size = new System.Drawing.Size(44, 21);
+            this.objective_cb3.TabIndex = 128;
+            this.objective_cb3.Text = "(C1)";
             // 
-            // comboBox1
+            // objective_cb2
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.objective_cb2.FormattingEnabled = true;
+            this.objective_cb2.Items.AddRange(new object[] {
             "(B1)",
             "(B2)",
             "(B3)",
@@ -356,11 +330,11 @@
             "(B8)",
             "(B9)",
             "(B10)"});
-            this.comboBox1.Location = new System.Drawing.Point(1055, 214);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(44, 21);
-            this.comboBox1.TabIndex = 123;
-            this.comboBox1.Text = "(B1)";
+            this.objective_cb2.Location = new System.Drawing.Point(1055, 183);
+            this.objective_cb2.Name = "objective_cb2";
+            this.objective_cb2.Size = new System.Drawing.Size(44, 21);
+            this.objective_cb2.TabIndex = 123;
+            this.objective_cb2.Text = "(B1)";
             // 
             // objective_cb1
             // 
@@ -376,7 +350,7 @@
             "(A8)",
             "(A9)",
             "(A10)"});
-            this.objective_cb1.Location = new System.Drawing.Point(673, 214);
+            this.objective_cb1.Location = new System.Drawing.Point(673, 183);
             this.objective_cb1.Name = "objective_cb1";
             this.objective_cb1.Size = new System.Drawing.Size(44, 21);
             this.objective_cb1.TabIndex = 116;
@@ -385,7 +359,7 @@
             // objective4_rtb
             // 
             this.objective4_rtb.ContextMenuStrip = this.contextMenuStrip2;
-            this.objective4_rtb.Location = new System.Drawing.Point(876, 431);
+            this.objective4_rtb.Location = new System.Drawing.Point(876, 400);
             this.objective4_rtb.Name = "objective4_rtb";
             this.objective4_rtb.Size = new System.Drawing.Size(365, 51);
             this.objective4_rtb.TabIndex = 137;
@@ -396,7 +370,7 @@
             this.label16.AutoSize = true;
             this.label16.BackColor = System.Drawing.Color.White;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(872, 485);
+            this.label16.Location = new System.Drawing.Point(872, 454);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(245, 20);
             this.label16.TabIndex = 151;
@@ -405,7 +379,7 @@
             // details4_rtb
             // 
             this.details4_rtb.ContextMenuStrip = this.contextMenuStrip2;
-            this.details4_rtb.Location = new System.Drawing.Point(876, 508);
+            this.details4_rtb.Location = new System.Drawing.Point(876, 477);
             this.details4_rtb.Name = "details4_rtb";
             this.details4_rtb.Size = new System.Drawing.Size(365, 51);
             this.details4_rtb.TabIndex = 140;
@@ -415,30 +389,32 @@
             // 
             this.goal4EndTime.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.goal4EndTime.CalendarForeColor = System.Drawing.Color.Coral;
+            this.goal4EndTime.CustomFormat = "h:mm tt";
             this.goal4EndTime.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.goal4EndTime.Location = new System.Drawing.Point(1076, 565);
+            this.goal4EndTime.Location = new System.Drawing.Point(1129, 534);
             this.goal4EndTime.Name = "goal4EndTime";
-            this.goal4EndTime.Size = new System.Drawing.Size(97, 20);
+            this.goal4EndTime.Size = new System.Drawing.Size(67, 20);
             this.goal4EndTime.TabIndex = 142;
-            this.goal4EndTime.Value = new System.DateTime(2015, 10, 21, 16, 0, 0, 0);
+            this.goal4EndTime.Value = new System.DateTime(2015, 10, 21, 15, 0, 0, 0);
             // 
             // goal4StartTime
             // 
             this.goal4StartTime.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.goal4StartTime.CalendarForeColor = System.Drawing.Color.Coral;
+            this.goal4StartTime.CustomFormat = "h:mm tt";
             this.goal4StartTime.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.goal4StartTime.Location = new System.Drawing.Point(925, 565);
+            this.goal4StartTime.Location = new System.Drawing.Point(978, 534);
             this.goal4StartTime.Name = "goal4StartTime";
-            this.goal4StartTime.Size = new System.Drawing.Size(97, 20);
+            this.goal4StartTime.Size = new System.Drawing.Size(67, 20);
             this.goal4StartTime.TabIndex = 141;
-            this.goal4StartTime.Value = new System.DateTime(2015, 10, 21, 10, 0, 0, 0);
+            this.goal4StartTime.Value = new System.DateTime(2015, 10, 21, 14, 0, 0, 0);
             // 
             // label17
             // 
             this.label17.AutoSize = true;
             this.label17.BackColor = System.Drawing.Color.White;
             this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(1028, 564);
+            this.label17.Location = new System.Drawing.Point(1081, 533);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(42, 20);
             this.label17.TabIndex = 150;
@@ -449,7 +425,7 @@
             this.label18.AutoSize = true;
             this.label18.BackColor = System.Drawing.Color.White;
             this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(871, 565);
+            this.label18.Location = new System.Drawing.Point(924, 534);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(48, 20);
             this.label18.TabIndex = 149;
@@ -471,7 +447,7 @@
             this.label19.AutoSize = true;
             this.label19.BackColor = System.Drawing.Color.White;
             this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(872, 408);
+            this.label19.Location = new System.Drawing.Point(872, 377);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(177, 20);
             this.label19.TabIndex = 148;
@@ -480,7 +456,7 @@
             // objective3_rtb
             // 
             this.objective3_rtb.ContextMenuStrip = this.contextMenuStrip2;
-            this.objective3_rtb.Location = new System.Drawing.Point(493, 431);
+            this.objective3_rtb.Location = new System.Drawing.Point(493, 400);
             this.objective3_rtb.Name = "objective3_rtb";
             this.objective3_rtb.Size = new System.Drawing.Size(365, 51);
             this.objective3_rtb.TabIndex = 130;
@@ -491,7 +467,7 @@
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.Color.White;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(490, 485);
+            this.label12.Location = new System.Drawing.Point(490, 454);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(245, 20);
             this.label12.TabIndex = 147;
@@ -500,7 +476,7 @@
             // details3_rtb
             // 
             this.details3_rtb.ContextMenuStrip = this.contextMenuStrip2;
-            this.details3_rtb.Location = new System.Drawing.Point(493, 508);
+            this.details3_rtb.Location = new System.Drawing.Point(493, 477);
             this.details3_rtb.Name = "details3_rtb";
             this.details3_rtb.Size = new System.Drawing.Size(365, 51);
             this.details3_rtb.TabIndex = 132;
@@ -510,30 +486,32 @@
             // 
             this.goal3EndTime.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.goal3EndTime.CalendarForeColor = System.Drawing.Color.Coral;
+            this.goal3EndTime.CustomFormat = "h:mm tt";
             this.goal3EndTime.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.goal3EndTime.Location = new System.Drawing.Point(693, 565);
+            this.goal3EndTime.Location = new System.Drawing.Point(746, 534);
             this.goal3EndTime.Name = "goal3EndTime";
-            this.goal3EndTime.Size = new System.Drawing.Size(97, 20);
+            this.goal3EndTime.Size = new System.Drawing.Size(67, 20);
             this.goal3EndTime.TabIndex = 134;
-            this.goal3EndTime.Value = new System.DateTime(2015, 10, 21, 16, 0, 0, 0);
+            this.goal3EndTime.Value = new System.DateTime(2015, 10, 21, 14, 0, 0, 0);
             // 
             // goal3StartTime
             // 
             this.goal3StartTime.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.goal3StartTime.CalendarForeColor = System.Drawing.Color.Coral;
+            this.goal3StartTime.CustomFormat = "h:mm tt";
             this.goal3StartTime.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.goal3StartTime.Location = new System.Drawing.Point(542, 565);
+            this.goal3StartTime.Location = new System.Drawing.Point(595, 534);
             this.goal3StartTime.Name = "goal3StartTime";
-            this.goal3StartTime.Size = new System.Drawing.Size(97, 20);
+            this.goal3StartTime.Size = new System.Drawing.Size(67, 20);
             this.goal3StartTime.TabIndex = 133;
-            this.goal3StartTime.Value = new System.DateTime(2015, 10, 21, 10, 0, 0, 0);
+            this.goal3StartTime.Value = new System.DateTime(2015, 10, 21, 0, 30, 0, 0);
             // 
             // label13
             // 
             this.label13.AutoSize = true;
             this.label13.BackColor = System.Drawing.Color.White;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(645, 564);
+            this.label13.Location = new System.Drawing.Point(698, 533);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(42, 20);
             this.label13.TabIndex = 146;
@@ -544,7 +522,7 @@
             this.label14.AutoSize = true;
             this.label14.BackColor = System.Drawing.Color.White;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(488, 565);
+            this.label14.Location = new System.Drawing.Point(541, 534);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(48, 20);
             this.label14.TabIndex = 145;
@@ -555,7 +533,7 @@
             this.label15.AutoSize = true;
             this.label15.BackColor = System.Drawing.Color.White;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(490, 408);
+            this.label15.Location = new System.Drawing.Point(490, 377);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(177, 20);
             this.label15.TabIndex = 144;
@@ -564,7 +542,7 @@
             // objective2_rtb
             // 
             this.objective2_rtb.ContextMenuStrip = this.contextMenuStrip2;
-            this.objective2_rtb.Location = new System.Drawing.Point(876, 237);
+            this.objective2_rtb.Location = new System.Drawing.Point(876, 206);
             this.objective2_rtb.Name = "objective2_rtb";
             this.objective2_rtb.Size = new System.Drawing.Size(365, 51);
             this.objective2_rtb.TabIndex = 124;
@@ -575,7 +553,7 @@
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.White;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(872, 291);
+            this.label7.Location = new System.Drawing.Point(872, 260);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(245, 20);
             this.label7.TabIndex = 143;
@@ -584,7 +562,7 @@
             // objective1_rtb
             // 
             this.objective1_rtb.ContextMenuStrip = this.contextMenuStrip2;
-            this.objective1_rtb.Location = new System.Drawing.Point(493, 237);
+            this.objective1_rtb.Location = new System.Drawing.Point(493, 206);
             this.objective1_rtb.Name = "objective1_rtb";
             this.objective1_rtb.Size = new System.Drawing.Size(365, 51);
             this.objective1_rtb.TabIndex = 118;
@@ -593,7 +571,7 @@
             // details2_rtb
             // 
             this.details2_rtb.ContextMenuStrip = this.contextMenuStrip2;
-            this.details2_rtb.Location = new System.Drawing.Point(876, 314);
+            this.details2_rtb.Location = new System.Drawing.Point(876, 283);
             this.details2_rtb.Name = "details2_rtb";
             this.details2_rtb.Size = new System.Drawing.Size(365, 50);
             this.details2_rtb.TabIndex = 125;
@@ -603,30 +581,32 @@
             // 
             this.goal2EndTime.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.goal2EndTime.CalendarForeColor = System.Drawing.Color.Coral;
+            this.goal2EndTime.CustomFormat = "h:mm tt";
             this.goal2EndTime.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.goal2EndTime.Location = new System.Drawing.Point(1083, 371);
+            this.goal2EndTime.Location = new System.Drawing.Point(1129, 340);
             this.goal2EndTime.Name = "goal2EndTime";
-            this.goal2EndTime.Size = new System.Drawing.Size(97, 20);
+            this.goal2EndTime.Size = new System.Drawing.Size(67, 20);
             this.goal2EndTime.TabIndex = 127;
-            this.goal2EndTime.Value = new System.DateTime(2015, 10, 21, 16, 0, 0, 0);
+            this.goal2EndTime.Value = new System.DateTime(2015, 10, 21, 12, 30, 0, 0);
             // 
             // goal2StartTime
             // 
             this.goal2StartTime.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.goal2StartTime.CalendarForeColor = System.Drawing.Color.Coral;
+            this.goal2StartTime.CustomFormat = "h:mm tt";
             this.goal2StartTime.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.goal2StartTime.Location = new System.Drawing.Point(932, 371);
+            this.goal2StartTime.Location = new System.Drawing.Point(978, 340);
             this.goal2StartTime.Name = "goal2StartTime";
-            this.goal2StartTime.Size = new System.Drawing.Size(97, 20);
+            this.goal2StartTime.Size = new System.Drawing.Size(67, 20);
             this.goal2StartTime.TabIndex = 126;
-            this.goal2StartTime.Value = new System.DateTime(2015, 10, 21, 10, 0, 0, 0);
+            this.goal2StartTime.Value = new System.DateTime(2015, 10, 21, 11, 30, 0, 0);
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.White;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(1035, 370);
+            this.label8.Location = new System.Drawing.Point(1081, 339);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(42, 20);
             this.label8.TabIndex = 139;
@@ -637,7 +617,7 @@
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.White;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(878, 371);
+            this.label10.Location = new System.Drawing.Point(924, 340);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(48, 20);
             this.label10.TabIndex = 138;
@@ -648,7 +628,7 @@
             this.label11.AutoSize = true;
             this.label11.BackColor = System.Drawing.Color.White;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(872, 214);
+            this.label11.Location = new System.Drawing.Point(872, 183);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(177, 20);
             this.label11.TabIndex = 135;
@@ -656,9 +636,9 @@
             // 
             // participantName_tb
             // 
-            this.participantName_tb.Location = new System.Drawing.Point(1067, 110);
+            this.participantName_tb.Location = new System.Drawing.Point(1059, 110);
             this.participantName_tb.Name = "participantName_tb";
-            this.participantName_tb.Size = new System.Drawing.Size(194, 20);
+            this.participantName_tb.Size = new System.Drawing.Size(160, 20);
             this.participantName_tb.TabIndex = 111;
             // 
             // label6
@@ -666,18 +646,18 @@
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.White;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(887, 110);
+            this.label6.Location = new System.Drawing.Point(875, 110);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(174, 20);
+            this.label6.Size = new System.Drawing.Size(178, 20);
             this.label6.TabIndex = 131;
-            this.label6.Text = "Participant\'s Full Name:";
+            this.label6.Text = "Participant\'s Full Name: ";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.White;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(490, 291);
+            this.label9.Location = new System.Drawing.Point(490, 260);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(245, 20);
             this.label9.TabIndex = 129;
@@ -686,7 +666,7 @@
             // details1_rtb
             // 
             this.details1_rtb.ContextMenuStrip = this.contextMenuStrip2;
-            this.details1_rtb.Location = new System.Drawing.Point(493, 314);
+            this.details1_rtb.Location = new System.Drawing.Point(493, 283);
             this.details1_rtb.Name = "details1_rtb";
             this.details1_rtb.Size = new System.Drawing.Size(365, 51);
             this.details1_rtb.TabIndex = 120;
@@ -696,21 +676,23 @@
             // 
             this.goal1EndTime.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.goal1EndTime.CalendarForeColor = System.Drawing.Color.Coral;
+            this.goal1EndTime.CustomFormat = "h:mm tt";
             this.goal1EndTime.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.goal1EndTime.Location = new System.Drawing.Point(693, 371);
+            this.goal1EndTime.Location = new System.Drawing.Point(746, 340);
             this.goal1EndTime.Name = "goal1EndTime";
-            this.goal1EndTime.Size = new System.Drawing.Size(97, 20);
+            this.goal1EndTime.Size = new System.Drawing.Size(67, 20);
             this.goal1EndTime.TabIndex = 122;
-            this.goal1EndTime.Value = new System.DateTime(2015, 10, 21, 16, 0, 0, 0);
+            this.goal1EndTime.Value = new System.DateTime(2015, 10, 21, 23, 30, 0, 0);
             // 
             // goal1StartTime
             // 
             this.goal1StartTime.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.goal1StartTime.CalendarForeColor = System.Drawing.Color.Coral;
+            this.goal1StartTime.CustomFormat = "h:mm tt";
             this.goal1StartTime.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.goal1StartTime.Location = new System.Drawing.Point(542, 371);
+            this.goal1StartTime.Location = new System.Drawing.Point(595, 340);
             this.goal1StartTime.Name = "goal1StartTime";
-            this.goal1StartTime.Size = new System.Drawing.Size(97, 20);
+            this.goal1StartTime.Size = new System.Drawing.Size(67, 20);
             this.goal1StartTime.TabIndex = 121;
             this.goal1StartTime.Value = new System.DateTime(2015, 10, 21, 10, 0, 0, 0);
             // 
@@ -719,7 +701,7 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.White;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(645, 370);
+            this.label5.Location = new System.Drawing.Point(698, 339);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(42, 20);
             this.label5.TabIndex = 119;
@@ -730,7 +712,7 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.White;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(488, 371);
+            this.label4.Location = new System.Drawing.Point(541, 340);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(48, 20);
             this.label4.TabIndex = 117;
@@ -741,30 +723,56 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.White;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(471, 110);
+            this.label3.Location = new System.Drawing.Point(526, 110);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(200, 20);
             this.label3.TabIndex = 112;
             this.label3.Text = "Please Select Todays Date";
             // 
-            // dateTimePicker1
+            // CurrentDateTime_CF1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(677, 110);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(197, 20);
-            this.dateTimePicker1.TabIndex = 109;
-            this.dateTimePicker1.Value = new System.DateTime(2015, 10, 21, 0, 0, 0, 0);
+            this.CurrentDateTime_CF1.CustomFormat = "(MM/dd/yy)";
+            this.CurrentDateTime_CF1.Location = new System.Drawing.Point(732, 110);
+            this.CurrentDateTime_CF1.Name = "CurrentDateTime_CF1";
+            this.CurrentDateTime_CF1.Size = new System.Drawing.Size(104, 20);
+            this.CurrentDateTime_CF1.TabIndex = 109;
+            this.CurrentDateTime_CF1.Value = new System.DateTime(2015, 10, 21, 0, 0, 0, 0);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.White;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(490, 214);
+            this.label2.Location = new System.Drawing.Point(490, 183);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(177, 20);
             this.label2.TabIndex = 108;
             this.label2.Text = "Participant\'s Objective 1";
+            // 
+            // contract_tb
+            // 
+            this.contract_tb.ContextMenuStrip = this.contextMenuStrip1;
+            this.contract_tb.EnableAutoDragDrop = true;
+            this.contract_tb.Location = new System.Drawing.Point(22, 40);
+            this.contract_tb.Name = "contract_tb";
+            this.contract_tb.ReadOnly = true;
+            this.contract_tb.Size = new System.Drawing.Size(418, 583);
+            this.contract_tb.TabIndex = 1;
+            this.contract_tb.Text = "";
+            // 
+            // departureTimeDesc_tb
+            // 
+            this.departureTimeDesc_tb.Location = new System.Drawing.Point(713, 578);
+            this.departureTimeDesc_tb.Name = "departureTimeDesc_tb";
+            this.departureTimeDesc_tb.Size = new System.Drawing.Size(528, 20);
+            this.departureTimeDesc_tb.TabIndex = 155;
+            // 
+            // arrivalTimeDesc_tb
+            // 
+            this.arrivalTimeDesc_tb.Location = new System.Drawing.Point(686, 146);
+            this.arrivalTimeDesc_tb.Name = "arrivalTimeDesc_tb";
+            this.arrivalTimeDesc_tb.Size = new System.Drawing.Size(555, 20);
+            this.arrivalTimeDesc_tb.TabIndex = 156;
             // 
             // CreateNoteForm1
             // 
@@ -772,15 +780,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkKhaki;
             this.ClientSize = new System.Drawing.Size(1290, 680);
-            this.Controls.Add(this.dateTimePicker3);
-            this.Controls.Add(this.dateTimePicker2);
+            this.Controls.Add(this.arrivalTimeDesc_tb);
+            this.Controls.Add(this.departureTimeDesc_tb);
+            this.Controls.Add(this.departureTime);
+            this.Controls.Add(this.arrivalTime);
             this.Controls.Add(this.label22);
             this.Controls.Add(this.label21);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label20);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.objective_cb4);
+            this.Controls.Add(this.objective_cb3);
+            this.Controls.Add(this.objective_cb2);
             this.Controls.Add(this.objective_cb1);
             this.Controls.Add(this.objective4_rtb);
             this.Controls.Add(this.label16);
@@ -817,7 +825,7 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.CurrentDateTime_CF1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.menuStrip1);
@@ -829,6 +837,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "CreateNoteForm1";
             this.Text = "Super Note :: Progress Note";
+            this.Load += new System.EventHandler(this.CreateNoteForm1_Load);
             this.contextMenuStrip1.ResumeLayout(false);
             this.contextMenuStrip2.ResumeLayout(false);
             this.menuStrip1.ResumeLayout(false);
@@ -840,7 +849,6 @@
         }
 
         #endregion
-        private System.Windows.Forms.RichTextBox contract_tb;
         private System.Windows.Forms.Button addGoalSheetButton;
         private System.Windows.Forms.Button clearButton;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
@@ -857,15 +865,13 @@
         private System.Windows.Forms.ToolStripMenuItem editToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker3;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.DateTimePicker departureTime;
+        private System.Windows.Forms.DateTimePicker arrivalTime;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox objective_cb4;
+        private System.Windows.Forms.ComboBox objective_cb3;
+        private System.Windows.Forms.ComboBox objective_cb2;
         private System.Windows.Forms.ComboBox objective_cb1;
         private System.Windows.Forms.RichTextBox objective4_rtb;
         private System.Windows.Forms.Label label16;
@@ -902,7 +908,10 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker CurrentDateTime_CF1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.RichTextBox contract_tb;
+        private System.Windows.Forms.TextBox departureTimeDesc_tb;
+        private System.Windows.Forms.TextBox arrivalTimeDesc_tb;
     }
 }

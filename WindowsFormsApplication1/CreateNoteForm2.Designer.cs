@@ -89,6 +89,7 @@
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox7.SuspendLayout();
@@ -105,7 +106,6 @@
             this.contract_tb.EnableAutoDragDrop = true;
             this.contract_tb.Location = new System.Drawing.Point(22, 40);
             this.contract_tb.Name = "contract_tb";
-            this.contract_tb.ReadOnly = true;
             this.contract_tb.Size = new System.Drawing.Size(418, 583);
             this.contract_tb.TabIndex = 2;
             this.contract_tb.Text = "";
@@ -502,11 +502,12 @@
             // 
             this.dateTimePicker4.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.dateTimePicker4.CalendarForeColor = System.Drawing.Color.Coral;
+            this.dateTimePicker4.CustomFormat = "h:mm tt";
             this.dateTimePicker4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePicker4.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.dateTimePicker4.Location = new System.Drawing.Point(138, 20);
             this.dateTimePicker4.Name = "dateTimePicker4";
-            this.dateTimePicker4.Size = new System.Drawing.Size(97, 22);
+            this.dateTimePicker4.Size = new System.Drawing.Size(67, 22);
             this.dateTimePicker4.TabIndex = 10;
             this.dateTimePicker4.Value = new System.DateTime(2015, 10, 21, 11, 0, 0, 0);
             // 
@@ -578,7 +579,7 @@
             this.dateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.dateTimePicker3.Location = new System.Drawing.Point(262, 23);
             this.dateTimePicker3.Name = "dateTimePicker3";
-            this.dateTimePicker3.Size = new System.Drawing.Size(97, 22);
+            this.dateTimePicker3.Size = new System.Drawing.Size(67, 22);
             this.dateTimePicker3.TabIndex = 5;
             this.dateTimePicker3.Value = new System.DateTime(2015, 10, 21, 10, 0, 0, 0);
             // 
@@ -600,7 +601,7 @@
             this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.dateTimePicker2.Location = new System.Drawing.Point(133, 22);
             this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(97, 22);
+            this.dateTimePicker2.Size = new System.Drawing.Size(67, 22);
             this.dateTimePicker2.TabIndex = 3;
             this.dateTimePicker2.Value = new System.DateTime(2015, 10, 21, 9, 0, 0, 0);
             // 
@@ -771,12 +772,23 @@
             this.label1.TabIndex = 9;
             this.label1.Text = "Create a new progress note";
             // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(17, 638);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(745, 25);
+            this.label10.TabIndex = 17;
+            this.label10.Text = "This is a preview, formatting will change once all forms have been completed";
+            // 
             // CreateNoteForm2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkKhaki;
             this.ClientSize = new System.Drawing.Size(1290, 680);
+            this.Controls.Add(this.label10);
             this.Controls.Add(this.groupBox7);
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.groupBox3);
@@ -876,5 +888,6 @@
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label10;
     }
 }

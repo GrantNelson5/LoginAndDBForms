@@ -24,29 +24,35 @@ namespace WindowsFormsApplication1
             * format to time only
             *******************************************/
 
-            goal1StartTime.Format = DateTimePickerFormat.Time;
+            goal1StartTime.Format = DateTimePickerFormat.Custom;
             goal1StartTime.ShowUpDown = true;
 
-            goal1EndTime.Format = DateTimePickerFormat.Time;
+            goal1EndTime.Format = DateTimePickerFormat.Custom;
             goal1EndTime.ShowUpDown = true;
 
-            goal2StartTime.Format = DateTimePickerFormat.Time;
+            goal2StartTime.Format = DateTimePickerFormat.Custom;
             goal2StartTime.ShowUpDown = true;
 
-            goal2EndTime.Format = DateTimePickerFormat.Time;
+            goal2EndTime.Format = DateTimePickerFormat.Custom;
             goal2EndTime.ShowUpDown = true;
 
-            goal3StartTime.Format = DateTimePickerFormat.Time;
+            goal3StartTime.Format = DateTimePickerFormat.Custom;
             goal3StartTime.ShowUpDown = true;
 
-            goal3EndTime.Format = DateTimePickerFormat.Time;
+            goal3EndTime.Format = DateTimePickerFormat.Custom;
             goal3EndTime.ShowUpDown = true;
 
-            goal4StartTime.Format = DateTimePickerFormat.Time;
+            goal4StartTime.Format = DateTimePickerFormat.Custom;
             goal4StartTime.ShowUpDown = true;
 
-            goal4EndTime.Format = DateTimePickerFormat.Time;
+            goal4EndTime.Format = DateTimePickerFormat.Custom;
             goal4EndTime.ShowUpDown = true;
+
+            arrivalTime.Format = DateTimePickerFormat.Custom;
+            arrivalTime.ShowUpDown = true;
+
+            departureTime.Format = DateTimePickerFormat.Custom;
+            departureTime.ShowUpDown = true;
 
         }
 
@@ -207,6 +213,52 @@ namespace WindowsFormsApplication1
             details4_rtb.Paste();
             contract_tb.Paste();*/
         }
+
+        private void nextButton_Click(object sender, EventArgs e)
+        {
+            contract_tb.Clear();
+
+            contract_tb.Text = participantName_tb.Text + "\t \t \t \t \t" + CurrentDateTime_CF1.Text + "\n \n" +
+                "Progress Notes are to include any daily activities, behavior issues, appointments and progress" +
+                " towards goals. Place all dates in parenthesis ( ) at the beginning of note on the far left side, circle the " +
+                " letter of the goal documenting on, include time beginning and ending of activity. Place signature and title after each data entry" +
+                "\n \n" +
+                
+                CurrentDateTime_CF1.Text + "\n \n" +  
+
+                 participantName_tb.Text + " arrived at the facility at " + arrivalTime.Text + arrivalTimeDesc_tb.Text + "\n \n" +
+
+                "At " + goal1StartTime.Text + " " + participantName_tb.Text + " began their first objective. " + 
+                objective_cb1.Text + " " + objective1_rtb.Text + "\n \n" + details1_rtb.Text + " " +
+                participantName_tb.Text + " finished working on objective " + objective_cb1.Text + " at " + goal1EndTime.Text 
+                + "\n \n" +
+
+                "At " + goal2StartTime.Text + " " + participantName_tb.Text + " started working on their second objective. " +
+                objective_cb2.Text + " " + objective2_rtb.Text + "\n \n" + details2_rtb.Text + " " +
+                participantName_tb.Text + " finished working on objective " + objective_cb2.Text + " at " + goal2EndTime.Text
+                + "\n \n" +
+
+
+                "At " + goal3StartTime.Text + " " + participantName_tb.Text + " moved on to their third objective. " +
+                objective_cb3.Text + " " + objective3_rtb.Text + "\n \n" + details3_rtb.Text + " " +
+                participantName_tb.Text + " finished working on objective " + objective_cb3.Text + " at " + goal3EndTime.Text
+                + "\n \n" +
+
+
+                "At " + goal4StartTime.Text + " " + participantName_tb.Text + " made it to their final objective. " +
+                objective_cb4.Text + " " + objective4_rtb.Text + "\n \n" + details4_rtb.Text + " " +
+                participantName_tb.Text + " finished working on objective " + objective_cb4.Text + " at " + goal4EndTime.Text
+                + "\n \n" +
+
+                departureTimeDesc_tb.Text + participantName_tb.Text + " got ready to leave and left the facility at " + departureTime.Text ;
+        }
+
+        private void CreateNoteForm1_Load(object sender, EventArgs e)
+        {
+            CurrentDateTime_CF1.Value = DateTime.Now;
+            CurrentDateTime_CF1.Format = DateTimePickerFormat.Custom;
+        }
+
     }
 
 }
