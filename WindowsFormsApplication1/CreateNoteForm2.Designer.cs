@@ -40,56 +40,57 @@
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.radioButton11 = new System.Windows.Forms.RadioButton();
-            this.dateTimePicker8 = new System.Windows.Forms.DateTimePicker();
+            this.tantrumTime = new System.Windows.Forms.DateTimePicker();
             this.radioButton12 = new System.Windows.Forms.RadioButton();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.radioButton9 = new System.Windows.Forms.RadioButton();
-            this.dateTimePicker7 = new System.Windows.Forms.DateTimePicker();
+            this.seizureTime = new System.Windows.Forms.DateTimePicker();
             this.radioButton10 = new System.Windows.Forms.RadioButton();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.radioButton6 = new System.Windows.Forms.RadioButton();
-            this.dateTimePicker5 = new System.Windows.Forms.DateTimePicker();
+            this.bathroomTime = new System.Windows.Forms.DateTimePicker();
             this.radioButton5 = new System.Windows.Forms.RadioButton();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.radioButton7 = new System.Windows.Forms.RadioButton();
-            this.dateTimePicker6 = new System.Windows.Forms.DateTimePicker();
+            this.medicationTime = new System.Windows.Forms.DateTimePicker();
             this.radioButton8 = new System.Windows.Forms.RadioButton();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.lunchTimeEnd = new System.Windows.Forms.DateTimePicker();
             this.label5 = new System.Windows.Forms.Label();
-            this.dateTimePicker4 = new System.Windows.Forms.DateTimePicker();
+            this.lunchTimeStart = new System.Windows.Forms.DateTimePicker();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
+            this.coffeeTimeEnd = new System.Windows.Forms.DateTimePicker();
             this.label2 = new System.Windows.Forms.Label();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.coffeeTimeStart = new System.Windows.Forms.DateTimePicker();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.checkBox11 = new System.Windows.Forms.CheckBox();
-            this.checkBox12 = new System.Windows.Forms.CheckBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.blood_Pressure_chbx = new System.Windows.Forms.CheckBox();
+            this.single_Absence_chbx = new System.Windows.Forms.CheckBox();
+            this.seizure_Daily_Checklist_chbx = new System.Windows.Forms.CheckBox();
+            this.seizure_Activity_Checklist_chbx = new System.Windows.Forms.CheckBox();
+            this.repositioning_Log_chbx = new System.Windows.Forms.CheckBox();
+            this.multiple_Absence_chbx = new System.Windows.Forms.CheckBox();
+            this.internal_Incident_chbx = new System.Windows.Forms.CheckBox();
+            this.goal_Tracking_Sheet_chbx = new System.Windows.Forms.CheckBox();
+            this.cca_chbx = new System.Windows.Forms.CheckBox();
+            this.body_Check_chbx = new System.Windows.Forms.CheckBox();
+            this.monthly_Data_Tracking_Log_chbx = new System.Windows.Forms.CheckBox();
             this.label1 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
+            this.label10 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox7.SuspendLayout();
@@ -104,9 +105,9 @@
             // previewNote_tb
             // 
             this.previewNote_tb.EnableAutoDragDrop = true;
-            this.previewNote_tb.Location = new System.Drawing.Point(22, 40);
+            this.previewNote_tb.Location = new System.Drawing.Point(22, 64);
             this.previewNote_tb.Name = "previewNote_tb";
-            this.previewNote_tb.Size = new System.Drawing.Size(418, 583);
+            this.previewNote_tb.Size = new System.Drawing.Size(418, 559);
             this.previewNote_tb.TabIndex = 2;
             this.previewNote_tb.Text = "";
             // 
@@ -166,7 +167,7 @@
             this.groupBox7.Controls.Add(this.textBox6);
             this.groupBox7.Controls.Add(this.label9);
             this.groupBox7.Controls.Add(this.radioButton11);
-            this.groupBox7.Controls.Add(this.dateTimePicker8);
+            this.groupBox7.Controls.Add(this.tantrumTime);
             this.groupBox7.Controls.Add(this.radioButton12);
             this.groupBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox7.Location = new System.Drawing.Point(874, 310);
@@ -206,17 +207,17 @@
             this.radioButton11.Text = "Yes";
             this.radioButton11.UseVisualStyleBackColor = true;
             // 
-            // dateTimePicker8
+            // tantrumTime
             // 
-            this.dateTimePicker8.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.dateTimePicker8.CalendarForeColor = System.Drawing.Color.Coral;
-            this.dateTimePicker8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker8.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dateTimePicker8.Location = new System.Drawing.Point(138, 25);
-            this.dateTimePicker8.Name = "dateTimePicker8";
-            this.dateTimePicker8.Size = new System.Drawing.Size(97, 22);
-            this.dateTimePicker8.TabIndex = 20;
-            this.dateTimePicker8.Value = new System.DateTime(2015, 10, 21, 9, 0, 0, 0);
+            this.tantrumTime.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.tantrumTime.CalendarForeColor = System.Drawing.Color.Coral;
+            this.tantrumTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tantrumTime.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.tantrumTime.Location = new System.Drawing.Point(138, 25);
+            this.tantrumTime.Name = "tantrumTime";
+            this.tantrumTime.Size = new System.Drawing.Size(67, 22);
+            this.tantrumTime.TabIndex = 20;
+            this.tantrumTime.Value = new System.DateTime(2015, 10, 21, 9, 0, 0, 0);
             // 
             // radioButton12
             // 
@@ -236,7 +237,7 @@
             this.groupBox6.Controls.Add(this.textBox5);
             this.groupBox6.Controls.Add(this.label8);
             this.groupBox6.Controls.Add(this.radioButton9);
-            this.groupBox6.Controls.Add(this.dateTimePicker7);
+            this.groupBox6.Controls.Add(this.seizureTime);
             this.groupBox6.Controls.Add(this.radioButton10);
             this.groupBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox6.Location = new System.Drawing.Point(476, 310);
@@ -276,17 +277,17 @@
             this.radioButton9.Text = "Yes";
             this.radioButton9.UseVisualStyleBackColor = true;
             // 
-            // dateTimePicker7
+            // seizureTime
             // 
-            this.dateTimePicker7.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.dateTimePicker7.CalendarForeColor = System.Drawing.Color.Coral;
-            this.dateTimePicker7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker7.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dateTimePicker7.Location = new System.Drawing.Point(133, 24);
-            this.dateTimePicker7.Name = "dateTimePicker7";
-            this.dateTimePicker7.Size = new System.Drawing.Size(97, 22);
-            this.dateTimePicker7.TabIndex = 15;
-            this.dateTimePicker7.Value = new System.DateTime(2015, 10, 21, 9, 0, 0, 0);
+            this.seizureTime.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.seizureTime.CalendarForeColor = System.Drawing.Color.Coral;
+            this.seizureTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.seizureTime.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.seizureTime.Location = new System.Drawing.Point(133, 24);
+            this.seizureTime.Name = "seizureTime";
+            this.seizureTime.Size = new System.Drawing.Size(67, 22);
+            this.seizureTime.TabIndex = 15;
+            this.seizureTime.Value = new System.DateTime(2015, 10, 21, 9, 0, 0, 0);
             // 
             // radioButton10
             // 
@@ -306,7 +307,7 @@
             this.groupBox3.Controls.Add(this.textBox3);
             this.groupBox3.Controls.Add(this.label6);
             this.groupBox3.Controls.Add(this.radioButton6);
-            this.groupBox3.Controls.Add(this.dateTimePicker5);
+            this.groupBox3.Controls.Add(this.bathroomTime);
             this.groupBox3.Controls.Add(this.radioButton5);
             this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.Location = new System.Drawing.Point(476, 204);
@@ -346,17 +347,17 @@
             this.radioButton6.Text = "Yes";
             this.radioButton6.UseVisualStyleBackColor = true;
             // 
-            // dateTimePicker5
+            // bathroomTime
             // 
-            this.dateTimePicker5.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.dateTimePicker5.CalendarForeColor = System.Drawing.Color.Coral;
-            this.dateTimePicker5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker5.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dateTimePicker5.Location = new System.Drawing.Point(133, 27);
-            this.dateTimePicker5.Name = "dateTimePicker5";
-            this.dateTimePicker5.Size = new System.Drawing.Size(97, 22);
-            this.dateTimePicker5.TabIndex = 10;
-            this.dateTimePicker5.Value = new System.DateTime(2015, 10, 21, 9, 0, 0, 0);
+            this.bathroomTime.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.bathroomTime.CalendarForeColor = System.Drawing.Color.Coral;
+            this.bathroomTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bathroomTime.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.bathroomTime.Location = new System.Drawing.Point(133, 27);
+            this.bathroomTime.Name = "bathroomTime";
+            this.bathroomTime.Size = new System.Drawing.Size(67, 22);
+            this.bathroomTime.TabIndex = 10;
+            this.bathroomTime.Value = new System.DateTime(2015, 10, 21, 9, 0, 0, 0);
             // 
             // radioButton5
             // 
@@ -376,7 +377,7 @@
             this.groupBox5.Controls.Add(this.textBox4);
             this.groupBox5.Controls.Add(this.label7);
             this.groupBox5.Controls.Add(this.radioButton7);
-            this.groupBox5.Controls.Add(this.dateTimePicker6);
+            this.groupBox5.Controls.Add(this.medicationTime);
             this.groupBox5.Controls.Add(this.radioButton8);
             this.groupBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox5.Location = new System.Drawing.Point(874, 204);
@@ -416,17 +417,17 @@
             this.radioButton7.Text = "Yes";
             this.radioButton7.UseVisualStyleBackColor = true;
             // 
-            // dateTimePicker6
+            // medicationTime
             // 
-            this.dateTimePicker6.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.dateTimePicker6.CalendarForeColor = System.Drawing.Color.Coral;
-            this.dateTimePicker6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker6.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dateTimePicker6.Location = new System.Drawing.Point(138, 27);
-            this.dateTimePicker6.Name = "dateTimePicker6";
-            this.dateTimePicker6.Size = new System.Drawing.Size(97, 22);
-            this.dateTimePicker6.TabIndex = 15;
-            this.dateTimePicker6.Value = new System.DateTime(2015, 10, 21, 9, 0, 0, 0);
+            this.medicationTime.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.medicationTime.CalendarForeColor = System.Drawing.Color.Coral;
+            this.medicationTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.medicationTime.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.medicationTime.Location = new System.Drawing.Point(138, 27);
+            this.medicationTime.Name = "medicationTime";
+            this.medicationTime.Size = new System.Drawing.Size(67, 22);
+            this.medicationTime.TabIndex = 15;
+            this.medicationTime.Value = new System.DateTime(2015, 10, 21, 9, 0, 0, 0);
             // 
             // radioButton8
             // 
@@ -445,9 +446,9 @@
             this.groupBox4.BackColor = System.Drawing.Color.White;
             this.groupBox4.Controls.Add(this.textBox2);
             this.groupBox4.Controls.Add(this.label4);
-            this.groupBox4.Controls.Add(this.dateTimePicker1);
+            this.groupBox4.Controls.Add(this.lunchTimeEnd);
             this.groupBox4.Controls.Add(this.label5);
-            this.groupBox4.Controls.Add(this.dateTimePicker4);
+            this.groupBox4.Controls.Add(this.lunchTimeStart);
             this.groupBox4.Controls.Add(this.radioButton3);
             this.groupBox4.Controls.Add(this.radioButton4);
             this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -476,40 +477,41 @@
             this.label4.TabIndex = 13;
             this.label4.Text = "Comment";
             // 
-            // dateTimePicker1
+            // lunchTimeEnd
             // 
-            this.dateTimePicker1.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.dateTimePicker1.CalendarForeColor = System.Drawing.Color.Coral;
-            this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dateTimePicker1.Location = new System.Drawing.Point(267, 21);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(97, 22);
-            this.dateTimePicker1.TabIndex = 12;
-            this.dateTimePicker1.Value = new System.DateTime(2015, 10, 21, 12, 0, 0, 0);
+            this.lunchTimeEnd.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.lunchTimeEnd.CalendarForeColor = System.Drawing.Color.Coral;
+            this.lunchTimeEnd.CustomFormat = "h:mm tt";
+            this.lunchTimeEnd.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lunchTimeEnd.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.lunchTimeEnd.Location = new System.Drawing.Point(267, 21);
+            this.lunchTimeEnd.Name = "lunchTimeEnd";
+            this.lunchTimeEnd.Size = new System.Drawing.Size(67, 22);
+            this.lunchTimeEnd.TabIndex = 12;
+            this.lunchTimeEnd.Value = new System.DateTime(2015, 10, 21, 12, 0, 0, 0);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(242, 25);
+            this.label5.Location = new System.Drawing.Point(230, 25);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(19, 16);
             this.label5.TabIndex = 11;
             this.label5.Text = "to";
             // 
-            // dateTimePicker4
+            // lunchTimeStart
             // 
-            this.dateTimePicker4.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.dateTimePicker4.CalendarForeColor = System.Drawing.Color.Coral;
-            this.dateTimePicker4.CustomFormat = "h:mm tt";
-            this.dateTimePicker4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker4.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dateTimePicker4.Location = new System.Drawing.Point(138, 20);
-            this.dateTimePicker4.Name = "dateTimePicker4";
-            this.dateTimePicker4.Size = new System.Drawing.Size(67, 22);
-            this.dateTimePicker4.TabIndex = 10;
-            this.dateTimePicker4.Value = new System.DateTime(2015, 10, 21, 11, 0, 0, 0);
+            this.lunchTimeStart.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.lunchTimeStart.CalendarForeColor = System.Drawing.Color.Coral;
+            this.lunchTimeStart.CustomFormat = "h:mm tt";
+            this.lunchTimeStart.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lunchTimeStart.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.lunchTimeStart.Location = new System.Drawing.Point(138, 20);
+            this.lunchTimeStart.Name = "lunchTimeStart";
+            this.lunchTimeStart.Size = new System.Drawing.Size(67, 22);
+            this.lunchTimeStart.TabIndex = 10;
+            this.lunchTimeStart.Value = new System.DateTime(2015, 10, 21, 11, 0, 0, 0);
             // 
             // radioButton3
             // 
@@ -540,9 +542,9 @@
             this.groupBox2.BackColor = System.Drawing.Color.White;
             this.groupBox2.Controls.Add(this.textBox1);
             this.groupBox2.Controls.Add(this.label3);
-            this.groupBox2.Controls.Add(this.dateTimePicker3);
+            this.groupBox2.Controls.Add(this.coffeeTimeEnd);
             this.groupBox2.Controls.Add(this.label2);
-            this.groupBox2.Controls.Add(this.dateTimePicker2);
+            this.groupBox2.Controls.Add(this.coffeeTimeStart);
             this.groupBox2.Controls.Add(this.radioButton2);
             this.groupBox2.Controls.Add(this.radioButton1);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -571,39 +573,41 @@
             this.label3.TabIndex = 6;
             this.label3.Text = "Comment";
             // 
-            // dateTimePicker3
+            // coffeeTimeEnd
             // 
-            this.dateTimePicker3.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.dateTimePicker3.CalendarForeColor = System.Drawing.Color.Coral;
-            this.dateTimePicker3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dateTimePicker3.Location = new System.Drawing.Point(262, 23);
-            this.dateTimePicker3.Name = "dateTimePicker3";
-            this.dateTimePicker3.Size = new System.Drawing.Size(67, 22);
-            this.dateTimePicker3.TabIndex = 5;
-            this.dateTimePicker3.Value = new System.DateTime(2015, 10, 21, 10, 0, 0, 0);
+            this.coffeeTimeEnd.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.coffeeTimeEnd.CalendarForeColor = System.Drawing.Color.Coral;
+            this.coffeeTimeEnd.CustomFormat = "h:mm tt";
+            this.coffeeTimeEnd.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.coffeeTimeEnd.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.coffeeTimeEnd.Location = new System.Drawing.Point(262, 23);
+            this.coffeeTimeEnd.Name = "coffeeTimeEnd";
+            this.coffeeTimeEnd.Size = new System.Drawing.Size(67, 22);
+            this.coffeeTimeEnd.TabIndex = 5;
+            this.coffeeTimeEnd.Value = new System.DateTime(2015, 10, 21, 10, 0, 0, 0);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(237, 27);
+            this.label2.Location = new System.Drawing.Point(222, 27);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(19, 16);
             this.label2.TabIndex = 4;
             this.label2.Text = "to";
             // 
-            // dateTimePicker2
+            // coffeeTimeStart
             // 
-            this.dateTimePicker2.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.dateTimePicker2.CalendarForeColor = System.Drawing.Color.Coral;
-            this.dateTimePicker2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dateTimePicker2.Location = new System.Drawing.Point(133, 22);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(67, 22);
-            this.dateTimePicker2.TabIndex = 3;
-            this.dateTimePicker2.Value = new System.DateTime(2015, 10, 21, 9, 0, 0, 0);
+            this.coffeeTimeStart.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.coffeeTimeStart.CalendarForeColor = System.Drawing.Color.Coral;
+            this.coffeeTimeStart.CustomFormat = "h:mm tt";
+            this.coffeeTimeStart.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.coffeeTimeStart.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.coffeeTimeStart.Location = new System.Drawing.Point(133, 22);
+            this.coffeeTimeStart.Name = "coffeeTimeStart";
+            this.coffeeTimeStart.Size = new System.Drawing.Size(67, 22);
+            this.coffeeTimeStart.TabIndex = 3;
+            this.coffeeTimeStart.Value = new System.DateTime(2015, 10, 21, 9, 0, 0, 0);
             // 
             // radioButton2
             // 
@@ -632,17 +636,17 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.White;
-            this.groupBox1.Controls.Add(this.checkBox11);
-            this.groupBox1.Controls.Add(this.checkBox12);
-            this.groupBox1.Controls.Add(this.checkBox7);
-            this.groupBox1.Controls.Add(this.checkBox8);
-            this.groupBox1.Controls.Add(this.checkBox9);
-            this.groupBox1.Controls.Add(this.checkBox4);
-            this.groupBox1.Controls.Add(this.checkBox5);
-            this.groupBox1.Controls.Add(this.checkBox6);
-            this.groupBox1.Controls.Add(this.checkBox3);
-            this.groupBox1.Controls.Add(this.checkBox2);
-            this.groupBox1.Controls.Add(this.checkBox1);
+            this.groupBox1.Controls.Add(this.blood_Pressure_chbx);
+            this.groupBox1.Controls.Add(this.single_Absence_chbx);
+            this.groupBox1.Controls.Add(this.seizure_Daily_Checklist_chbx);
+            this.groupBox1.Controls.Add(this.seizure_Activity_Checklist_chbx);
+            this.groupBox1.Controls.Add(this.repositioning_Log_chbx);
+            this.groupBox1.Controls.Add(this.multiple_Absence_chbx);
+            this.groupBox1.Controls.Add(this.internal_Incident_chbx);
+            this.groupBox1.Controls.Add(this.goal_Tracking_Sheet_chbx);
+            this.groupBox1.Controls.Add(this.cca_chbx);
+            this.groupBox1.Controls.Add(this.body_Check_chbx);
+            this.groupBox1.Controls.Add(this.monthly_Data_Tracking_Log_chbx);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(478, 435);
             this.groupBox1.Name = "groupBox1";
@@ -651,115 +655,115 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Select any forms that apply";
             // 
-            // checkBox11
+            // blood_Pressure_chbx
             // 
-            this.checkBox11.AutoSize = true;
-            this.checkBox11.Location = new System.Drawing.Point(16, 82);
-            this.checkBox11.Name = "checkBox11";
-            this.checkBox11.Size = new System.Drawing.Size(233, 24);
-            this.checkBox11.TabIndex = 10;
-            this.checkBox11.Text = "Weight Blood Pressure Chart";
-            this.checkBox11.UseVisualStyleBackColor = true;
+            this.blood_Pressure_chbx.AutoSize = true;
+            this.blood_Pressure_chbx.Location = new System.Drawing.Point(16, 82);
+            this.blood_Pressure_chbx.Name = "blood_Pressure_chbx";
+            this.blood_Pressure_chbx.Size = new System.Drawing.Size(233, 24);
+            this.blood_Pressure_chbx.TabIndex = 10;
+            this.blood_Pressure_chbx.Text = "Weight Blood Pressure Chart";
+            this.blood_Pressure_chbx.UseVisualStyleBackColor = true;
             // 
-            // checkBox12
+            // single_Absence_chbx
             // 
-            this.checkBox12.AutoSize = true;
-            this.checkBox12.Location = new System.Drawing.Point(463, 82);
-            this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(139, 24);
-            this.checkBox12.TabIndex = 9;
-            this.checkBox12.Text = "Single Absense";
-            this.checkBox12.UseVisualStyleBackColor = true;
+            this.single_Absence_chbx.AutoSize = true;
+            this.single_Absence_chbx.Location = new System.Drawing.Point(463, 82);
+            this.single_Absence_chbx.Name = "single_Absence_chbx";
+            this.single_Absence_chbx.Size = new System.Drawing.Size(139, 24);
+            this.single_Absence_chbx.TabIndex = 9;
+            this.single_Absence_chbx.Text = "Single Absence";
+            this.single_Absence_chbx.UseVisualStyleBackColor = true;
             // 
-            // checkBox7
+            // seizure_Daily_Checklist_chbx
             // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Location = new System.Drawing.Point(463, 131);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(185, 24);
-            this.checkBox7.TabIndex = 8;
-            this.checkBox7.Text = "Seizure Daily checklist";
-            this.checkBox7.UseVisualStyleBackColor = true;
+            this.seizure_Daily_Checklist_chbx.AutoSize = true;
+            this.seizure_Daily_Checklist_chbx.Location = new System.Drawing.Point(463, 131);
+            this.seizure_Daily_Checklist_chbx.Name = "seizure_Daily_Checklist_chbx";
+            this.seizure_Daily_Checklist_chbx.Size = new System.Drawing.Size(185, 24);
+            this.seizure_Daily_Checklist_chbx.TabIndex = 8;
+            this.seizure_Daily_Checklist_chbx.Text = "Seizure Daily checklist";
+            this.seizure_Daily_Checklist_chbx.UseVisualStyleBackColor = true;
             // 
-            // checkBox8
+            // seizure_Activity_Checklist_chbx
             // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.Location = new System.Drawing.Point(16, 131);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(203, 24);
-            this.checkBox8.TabIndex = 7;
-            this.checkBox8.Text = "Seizure Activity Checklist";
-            this.checkBox8.UseVisualStyleBackColor = true;
+            this.seizure_Activity_Checklist_chbx.AutoSize = true;
+            this.seizure_Activity_Checklist_chbx.Location = new System.Drawing.Point(16, 131);
+            this.seizure_Activity_Checklist_chbx.Name = "seizure_Activity_Checklist_chbx";
+            this.seizure_Activity_Checklist_chbx.Size = new System.Drawing.Size(203, 24);
+            this.seizure_Activity_Checklist_chbx.TabIndex = 7;
+            this.seizure_Activity_Checklist_chbx.Text = "Seizure Activity Checklist";
+            this.seizure_Activity_Checklist_chbx.UseVisualStyleBackColor = true;
             // 
-            // checkBox9
+            // repositioning_Log_chbx
             // 
-            this.checkBox9.AutoSize = true;
-            this.checkBox9.Location = new System.Drawing.Point(463, 36);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(156, 24);
-            this.checkBox9.TabIndex = 6;
-            this.checkBox9.Text = "Repositioning Log";
-            this.checkBox9.UseVisualStyleBackColor = true;
+            this.repositioning_Log_chbx.AutoSize = true;
+            this.repositioning_Log_chbx.Location = new System.Drawing.Point(463, 36);
+            this.repositioning_Log_chbx.Name = "repositioning_Log_chbx";
+            this.repositioning_Log_chbx.Size = new System.Drawing.Size(156, 24);
+            this.repositioning_Log_chbx.TabIndex = 6;
+            this.repositioning_Log_chbx.Text = "Repositioning Log";
+            this.repositioning_Log_chbx.UseVisualStyleBackColor = true;
             // 
-            // checkBox4
+            // multiple_Absence_chbx
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(270, 131);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(149, 24);
-            this.checkBox4.TabIndex = 5;
-            this.checkBox4.Text = "Multiple Absense";
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.multiple_Absence_chbx.AutoSize = true;
+            this.multiple_Absence_chbx.Location = new System.Drawing.Point(270, 131);
+            this.multiple_Absence_chbx.Name = "multiple_Absence_chbx";
+            this.multiple_Absence_chbx.Size = new System.Drawing.Size(149, 24);
+            this.multiple_Absence_chbx.TabIndex = 5;
+            this.multiple_Absence_chbx.Text = "Multiple Absence";
+            this.multiple_Absence_chbx.UseVisualStyleBackColor = true;
             // 
-            // checkBox5
+            // internal_Incident_chbx
             // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(270, 82);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(143, 24);
-            this.checkBox5.TabIndex = 4;
-            this.checkBox5.Text = "Internal Incident";
-            this.checkBox5.UseVisualStyleBackColor = true;
+            this.internal_Incident_chbx.AutoSize = true;
+            this.internal_Incident_chbx.Location = new System.Drawing.Point(270, 82);
+            this.internal_Incident_chbx.Name = "internal_Incident_chbx";
+            this.internal_Incident_chbx.Size = new System.Drawing.Size(143, 24);
+            this.internal_Incident_chbx.TabIndex = 4;
+            this.internal_Incident_chbx.Text = "Internal Incident";
+            this.internal_Incident_chbx.UseVisualStyleBackColor = true;
             // 
-            // checkBox6
+            // goal_Tracking_Sheet_chbx
             // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(270, 36);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(173, 24);
-            this.checkBox6.TabIndex = 3;
-            this.checkBox6.Text = "Goal Tracking Sheet";
-            this.checkBox6.UseVisualStyleBackColor = true;
+            this.goal_Tracking_Sheet_chbx.AutoSize = true;
+            this.goal_Tracking_Sheet_chbx.Location = new System.Drawing.Point(270, 36);
+            this.goal_Tracking_Sheet_chbx.Name = "goal_Tracking_Sheet_chbx";
+            this.goal_Tracking_Sheet_chbx.Size = new System.Drawing.Size(173, 24);
+            this.goal_Tracking_Sheet_chbx.TabIndex = 3;
+            this.goal_Tracking_Sheet_chbx.Text = "Goal Tracking Sheet";
+            this.goal_Tracking_Sheet_chbx.UseVisualStyleBackColor = true;
             // 
-            // checkBox3
+            // cca_chbx
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(646, 36);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(108, 24);
-            this.checkBox3.TabIndex = 2;
-            this.checkBox3.Text = "CCA Sheet";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.cca_chbx.AutoSize = true;
+            this.cca_chbx.Location = new System.Drawing.Point(646, 36);
+            this.cca_chbx.Name = "cca_chbx";
+            this.cca_chbx.Size = new System.Drawing.Size(108, 24);
+            this.cca_chbx.TabIndex = 2;
+            this.cca_chbx.Text = "CCA Sheet";
+            this.cca_chbx.UseVisualStyleBackColor = true;
             // 
-            // checkBox2
+            // body_Check_chbx
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(646, 82);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(113, 24);
-            this.checkBox2.TabIndex = 1;
-            this.checkBox2.Text = "Body Check";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.body_Check_chbx.AutoSize = true;
+            this.body_Check_chbx.Location = new System.Drawing.Point(646, 82);
+            this.body_Check_chbx.Name = "body_Check_chbx";
+            this.body_Check_chbx.Size = new System.Drawing.Size(113, 24);
+            this.body_Check_chbx.TabIndex = 1;
+            this.body_Check_chbx.Text = "Body Check";
+            this.body_Check_chbx.UseVisualStyleBackColor = true;
             // 
-            // checkBox1
+            // monthly_Data_Tracking_Log_chbx
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(16, 36);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(212, 24);
-            this.checkBox1.TabIndex = 0;
-            this.checkBox1.Text = "Monthly Data Tacking Log";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.monthly_Data_Tracking_Log_chbx.AutoSize = true;
+            this.monthly_Data_Tracking_Log_chbx.Location = new System.Drawing.Point(16, 36);
+            this.monthly_Data_Tracking_Log_chbx.Name = "monthly_Data_Tracking_Log_chbx";
+            this.monthly_Data_Tracking_Log_chbx.Size = new System.Drawing.Size(212, 24);
+            this.monthly_Data_Tracking_Log_chbx.TabIndex = 0;
+            this.monthly_Data_Tracking_Log_chbx.Text = "Monthly Data Tacking Log";
+            this.monthly_Data_Tracking_Log_chbx.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -783,12 +787,23 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(85, 37);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(302, 24);
+            this.label10.TabIndex = 24;
+            this.label10.Text = "This is a progress note preview";
+            // 
             // CreateNoteForm2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkKhaki;
             this.ClientSize = new System.Drawing.Size(1290, 680);
+            this.Controls.Add(this.label10);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.groupBox7);
             this.Controls.Add(this.groupBox6);
@@ -841,55 +856,56 @@
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.RadioButton radioButton11;
-        private System.Windows.Forms.DateTimePicker dateTimePicker8;
+        private System.Windows.Forms.DateTimePicker tantrumTime;
         private System.Windows.Forms.RadioButton radioButton12;
         private System.Windows.Forms.GroupBox groupBox6;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.RadioButton radioButton9;
-        private System.Windows.Forms.DateTimePicker dateTimePicker7;
+        private System.Windows.Forms.DateTimePicker seizureTime;
         private System.Windows.Forms.RadioButton radioButton10;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.RadioButton radioButton6;
-        private System.Windows.Forms.DateTimePicker dateTimePicker5;
+        private System.Windows.Forms.DateTimePicker bathroomTime;
         private System.Windows.Forms.RadioButton radioButton5;
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.RadioButton radioButton7;
-        private System.Windows.Forms.DateTimePicker dateTimePicker6;
+        private System.Windows.Forms.DateTimePicker medicationTime;
         private System.Windows.Forms.RadioButton radioButton8;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker lunchTimeEnd;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.DateTimePicker dateTimePicker4;
+        private System.Windows.Forms.DateTimePicker lunchTimeStart;
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.RadioButton radioButton4;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.DateTimePicker dateTimePicker3;
+        private System.Windows.Forms.DateTimePicker coffeeTimeEnd;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.DateTimePicker coffeeTimeStart;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.CheckBox checkBox11;
-        private System.Windows.Forms.CheckBox checkBox12;
-        private System.Windows.Forms.CheckBox checkBox7;
-        private System.Windows.Forms.CheckBox checkBox8;
-        private System.Windows.Forms.CheckBox checkBox9;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.CheckBox checkBox6;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox blood_Pressure_chbx;
+        private System.Windows.Forms.CheckBox single_Absence_chbx;
+        private System.Windows.Forms.CheckBox seizure_Daily_Checklist_chbx;
+        private System.Windows.Forms.CheckBox seizure_Activity_Checklist_chbx;
+        private System.Windows.Forms.CheckBox repositioning_Log_chbx;
+        private System.Windows.Forms.CheckBox multiple_Absence_chbx;
+        private System.Windows.Forms.CheckBox internal_Incident_chbx;
+        private System.Windows.Forms.CheckBox goal_Tracking_Sheet_chbx;
+        private System.Windows.Forms.CheckBox cca_chbx;
+        private System.Windows.Forms.CheckBox body_Check_chbx;
+        private System.Windows.Forms.CheckBox monthly_Data_Tracking_Log_chbx;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label10;
     }
 }

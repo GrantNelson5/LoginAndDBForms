@@ -18,7 +18,10 @@ namespace WindowsFormsApplication1
 
         string docToTxtName;
 
-        
+        Boolean boolOne = false;
+        Boolean boolTwo = false;
+        Boolean boolThree = false;
+        Boolean boolFour = false;
 
         public CreateNoteForm1()
         {
@@ -217,7 +220,7 @@ namespace WindowsFormsApplication1
 
         private void nextButton_Click(object sender, EventArgs e)
         {
-            contract_tb.Clear();
+            /*contract_tb.Clear();
             string test;
             test = participantName_tb.Text + "\t \t \t \t \t" + CurrentDateTime_CF1.Text + "\n \n" +
                 "Progress Notes are to include any daily activities, behavior issues, appointments and progress" +
@@ -252,17 +255,24 @@ namespace WindowsFormsApplication1
                 + "\n \n" +
 
                 departureTimeDesc_tb.Text + participantName_tb.Text + " got ready to leave and left the facility at " + departureTime.Text ;
+                */
 
-            CreateNoteForm2 nextStep = new CreateNoteForm2(participantName_tb.Text, CurrentDateTime_CF1.Text, arrivalTime, arrivalTimeDesc_tb.Text,
+
+                CreateNoteForm2 nextStep = new CreateNoteForm2(participantName_tb.Text, 
+                CurrentDateTime_CF1.Text, arrivalTime, arrivalTimeDesc_tb.Text,
                 goal1StartTime, objective_cb1.Text, objective1_rtb.Text, details1_rtb.Text, goal1EndTime,
-                goal2StartTime, objective_cb1.Text, objective2_rtb.Text, details1_rtb.Text, goal2EndTime,
-                goal3StartTime, objective_cb1.Text, objective3_rtb.Text, details1_rtb.Text, goal3EndTime,
-                goal4StartTime, objective_cb1.Text, objective4_rtb.Text, details1_rtb.Text, goal4EndTime,
-                departureTime, departureTimeDesc_tb.Text);
+                goal2StartTime, objective_cb1.Text, objective2_rtb.Text, details2_rtb.Text, goal2EndTime,
+                goal3StartTime, objective_cb1.Text, objective3_rtb.Text, details3_rtb.Text, goal3EndTime,
+                goal4StartTime, objective_cb1.Text, objective4_rtb.Text, details4_rtb.Text, goal4EndTime,
+                departureTime);
 
             nextStep.RefToForm1 = this;
             this.Visible = false;
             nextStep.Show();
+
+            this.CenterToScreen();
+
+
         }
 
         private void CreateNoteForm1_Load(object sender, EventArgs e)
@@ -279,7 +289,6 @@ namespace WindowsFormsApplication1
         private void clearFromButton_Click(object sender, EventArgs e)
         {
             arrivalTimeDesc_tb.Clear();
-            departureTimeDesc_tb.Clear();
             participantName_tb.Clear();
             details1_rtb.Clear();
             details2_rtb.Clear();
