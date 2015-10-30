@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CreateNoteForm2));
-            this.contract_tb = new System.Windows.Forms.RichTextBox();
+            this.previewNote_tb = new System.Windows.Forms.RichTextBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -89,7 +89,7 @@
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox7.SuspendLayout();
@@ -101,14 +101,14 @@
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // contract_tb
+            // previewNote_tb
             // 
-            this.contract_tb.EnableAutoDragDrop = true;
-            this.contract_tb.Location = new System.Drawing.Point(22, 40);
-            this.contract_tb.Name = "contract_tb";
-            this.contract_tb.Size = new System.Drawing.Size(418, 583);
-            this.contract_tb.TabIndex = 2;
-            this.contract_tb.Text = "";
+            this.previewNote_tb.EnableAutoDragDrop = true;
+            this.previewNote_tb.Location = new System.Drawing.Point(22, 40);
+            this.previewNote_tb.Name = "previewNote_tb";
+            this.previewNote_tb.Size = new System.Drawing.Size(418, 583);
+            this.previewNote_tb.TabIndex = 2;
+            this.previewNote_tb.Text = "";
             // 
             // menuStrip1
             // 
@@ -772,15 +772,16 @@
             this.label1.TabIndex = 9;
             this.label1.Text = "Create a new progress note";
             // 
-            // label10
+            // button2
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(17, 638);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(745, 25);
-            this.label10.TabIndex = 17;
-            this.label10.Text = "This is a preview, formatting will change once all forms have been completed";
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(22, 629);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(125, 44);
+            this.button2.TabIndex = 23;
+            this.button2.Text = "<< Back";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // CreateNoteForm2
             // 
@@ -788,7 +789,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkKhaki;
             this.ClientSize = new System.Drawing.Size(1290, 680);
-            this.Controls.Add(this.label10);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.groupBox7);
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.groupBox3);
@@ -799,11 +800,12 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.contract_tb);
+            this.Controls.Add(this.previewNote_tb);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "CreateNoteForm2";
-            this.Text = "Super Note :: Create Note";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Super Note :: Create Note Step 2 of x";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -828,7 +830,7 @@
 
         #endregion
 
-        private System.Windows.Forms.RichTextBox contract_tb;
+        private System.Windows.Forms.RichTextBox previewNote_tb;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem editToolStripMenuItem;
@@ -888,6 +890,6 @@
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Button button2;
     }
 }

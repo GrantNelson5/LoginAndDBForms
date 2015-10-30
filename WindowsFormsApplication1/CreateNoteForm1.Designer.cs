@@ -94,6 +94,13 @@
             this.contract_tb = new System.Windows.Forms.RichTextBox();
             this.departureTimeDesc_tb = new System.Windows.Forms.TextBox();
             this.arrivalTimeDesc_tb = new System.Windows.Forms.TextBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.clearFromButton = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.contextMenuStrip1.SuspendLayout();
             this.contextMenuStrip2.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -134,6 +141,7 @@
             this.clearButton.TabIndex = 3;
             this.clearButton.Text = "Clear";
             this.clearButton.UseVisualStyleBackColor = true;
+            this.clearButton.Click += new System.EventHandler(this.clearButton_Click);
             // 
             // openFileDialog1
             // 
@@ -175,14 +183,14 @@
             this.nextButton.Location = new System.Drawing.Point(1153, 629);
             this.nextButton.Name = "nextButton";
             this.nextButton.Size = new System.Drawing.Size(125, 44);
-            this.nextButton.TabIndex = 6;
+            this.nextButton.TabIndex = 26;
             this.nextButton.Text = "Next >>";
             this.nextButton.UseVisualStyleBackColor = true;
             this.nextButton.Click += new System.EventHandler(this.nextButton_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(455, 650);
+            this.button2.Location = new System.Drawing.Point(651, 650);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 7;
@@ -239,7 +247,7 @@
             this.departureTime.Location = new System.Drawing.Point(618, 578);
             this.departureTime.Name = "departureTime";
             this.departureTime.Size = new System.Drawing.Size(67, 20);
-            this.departureTime.TabIndex = 113;
+            this.departureTime.TabIndex = 24;
             this.departureTime.Value = new System.DateTime(2015, 10, 21, 15, 0, 0, 0);
             // 
             // arrivalTime
@@ -251,7 +259,7 @@
             this.arrivalTime.Location = new System.Drawing.Point(594, 146);
             this.arrivalTime.Name = "arrivalTime";
             this.arrivalTime.Size = new System.Drawing.Size(67, 20);
-            this.arrivalTime.TabIndex = 114;
+            this.arrivalTime.TabIndex = 2;
             this.arrivalTime.Value = new System.DateTime(2015, 10, 21, 9, 0, 0, 0);
             // 
             // label22
@@ -273,7 +281,7 @@
             this.label21.Location = new System.Drawing.Point(495, 146);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(94, 20);
-            this.label21.TabIndex = 153;
+            this.label21.TabIndex = 5;
             this.label21.Text = "Arrival Time:";
             // 
             // objective_cb4
@@ -293,7 +301,7 @@
             this.objective_cb4.Location = new System.Drawing.Point(1055, 376);
             this.objective_cb4.Name = "objective_cb4";
             this.objective_cb4.Size = new System.Drawing.Size(44, 21);
-            this.objective_cb4.TabIndex = 136;
+            this.objective_cb4.TabIndex = 19;
             this.objective_cb4.Text = "(D1)";
             // 
             // objective_cb3
@@ -313,7 +321,7 @@
             this.objective_cb3.Location = new System.Drawing.Point(673, 377);
             this.objective_cb3.Name = "objective_cb3";
             this.objective_cb3.Size = new System.Drawing.Size(44, 21);
-            this.objective_cb3.TabIndex = 128;
+            this.objective_cb3.TabIndex = 14;
             this.objective_cb3.Text = "(C1)";
             // 
             // objective_cb2
@@ -333,7 +341,7 @@
             this.objective_cb2.Location = new System.Drawing.Point(1055, 183);
             this.objective_cb2.Name = "objective_cb2";
             this.objective_cb2.Size = new System.Drawing.Size(44, 21);
-            this.objective_cb2.TabIndex = 123;
+            this.objective_cb2.TabIndex = 9;
             this.objective_cb2.Text = "(B1)";
             // 
             // objective_cb1
@@ -353,7 +361,7 @@
             this.objective_cb1.Location = new System.Drawing.Point(673, 183);
             this.objective_cb1.Name = "objective_cb1";
             this.objective_cb1.Size = new System.Drawing.Size(44, 21);
-            this.objective_cb1.TabIndex = 116;
+            this.objective_cb1.TabIndex = 4;
             this.objective_cb1.Text = "(A1)";
             // 
             // objective4_rtb
@@ -362,7 +370,7 @@
             this.objective4_rtb.Location = new System.Drawing.Point(876, 400);
             this.objective4_rtb.Name = "objective4_rtb";
             this.objective4_rtb.Size = new System.Drawing.Size(365, 51);
-            this.objective4_rtb.TabIndex = 137;
+            this.objective4_rtb.TabIndex = 20;
             this.objective4_rtb.Text = "";
             // 
             // label16
@@ -382,7 +390,7 @@
             this.details4_rtb.Location = new System.Drawing.Point(876, 477);
             this.details4_rtb.Name = "details4_rtb";
             this.details4_rtb.Size = new System.Drawing.Size(365, 51);
-            this.details4_rtb.TabIndex = 140;
+            this.details4_rtb.TabIndex = 21;
             this.details4_rtb.Text = "";
             // 
             // goal4EndTime
@@ -394,7 +402,7 @@
             this.goal4EndTime.Location = new System.Drawing.Point(1129, 534);
             this.goal4EndTime.Name = "goal4EndTime";
             this.goal4EndTime.Size = new System.Drawing.Size(67, 20);
-            this.goal4EndTime.TabIndex = 142;
+            this.goal4EndTime.TabIndex = 23;
             this.goal4EndTime.Value = new System.DateTime(2015, 10, 21, 15, 0, 0, 0);
             // 
             // goal4StartTime
@@ -406,7 +414,7 @@
             this.goal4StartTime.Location = new System.Drawing.Point(978, 534);
             this.goal4StartTime.Name = "goal4StartTime";
             this.goal4StartTime.Size = new System.Drawing.Size(67, 20);
-            this.goal4StartTime.TabIndex = 141;
+            this.goal4StartTime.TabIndex = 22;
             this.goal4StartTime.Value = new System.DateTime(2015, 10, 21, 14, 0, 0, 0);
             // 
             // label17
@@ -459,7 +467,7 @@
             this.objective3_rtb.Location = new System.Drawing.Point(493, 400);
             this.objective3_rtb.Name = "objective3_rtb";
             this.objective3_rtb.Size = new System.Drawing.Size(365, 51);
-            this.objective3_rtb.TabIndex = 130;
+            this.objective3_rtb.TabIndex = 15;
             this.objective3_rtb.Text = "";
             // 
             // label12
@@ -479,7 +487,7 @@
             this.details3_rtb.Location = new System.Drawing.Point(493, 477);
             this.details3_rtb.Name = "details3_rtb";
             this.details3_rtb.Size = new System.Drawing.Size(365, 51);
-            this.details3_rtb.TabIndex = 132;
+            this.details3_rtb.TabIndex = 16;
             this.details3_rtb.Text = "";
             // 
             // goal3EndTime
@@ -491,7 +499,7 @@
             this.goal3EndTime.Location = new System.Drawing.Point(746, 534);
             this.goal3EndTime.Name = "goal3EndTime";
             this.goal3EndTime.Size = new System.Drawing.Size(67, 20);
-            this.goal3EndTime.TabIndex = 134;
+            this.goal3EndTime.TabIndex = 18;
             this.goal3EndTime.Value = new System.DateTime(2015, 10, 21, 14, 0, 0, 0);
             // 
             // goal3StartTime
@@ -503,7 +511,7 @@
             this.goal3StartTime.Location = new System.Drawing.Point(595, 534);
             this.goal3StartTime.Name = "goal3StartTime";
             this.goal3StartTime.Size = new System.Drawing.Size(67, 20);
-            this.goal3StartTime.TabIndex = 133;
+            this.goal3StartTime.TabIndex = 17;
             this.goal3StartTime.Value = new System.DateTime(2015, 10, 21, 0, 30, 0, 0);
             // 
             // label13
@@ -545,7 +553,7 @@
             this.objective2_rtb.Location = new System.Drawing.Point(876, 206);
             this.objective2_rtb.Name = "objective2_rtb";
             this.objective2_rtb.Size = new System.Drawing.Size(365, 51);
-            this.objective2_rtb.TabIndex = 124;
+            this.objective2_rtb.TabIndex = 10;
             this.objective2_rtb.Text = "";
             // 
             // label7
@@ -565,7 +573,7 @@
             this.objective1_rtb.Location = new System.Drawing.Point(493, 206);
             this.objective1_rtb.Name = "objective1_rtb";
             this.objective1_rtb.Size = new System.Drawing.Size(365, 51);
-            this.objective1_rtb.TabIndex = 118;
+            this.objective1_rtb.TabIndex = 5;
             this.objective1_rtb.Text = "";
             // 
             // details2_rtb
@@ -574,7 +582,7 @@
             this.details2_rtb.Location = new System.Drawing.Point(876, 283);
             this.details2_rtb.Name = "details2_rtb";
             this.details2_rtb.Size = new System.Drawing.Size(365, 50);
-            this.details2_rtb.TabIndex = 125;
+            this.details2_rtb.TabIndex = 11;
             this.details2_rtb.Text = "";
             // 
             // goal2EndTime
@@ -586,7 +594,7 @@
             this.goal2EndTime.Location = new System.Drawing.Point(1129, 340);
             this.goal2EndTime.Name = "goal2EndTime";
             this.goal2EndTime.Size = new System.Drawing.Size(67, 20);
-            this.goal2EndTime.TabIndex = 127;
+            this.goal2EndTime.TabIndex = 13;
             this.goal2EndTime.Value = new System.DateTime(2015, 10, 21, 12, 30, 0, 0);
             // 
             // goal2StartTime
@@ -598,7 +606,7 @@
             this.goal2StartTime.Location = new System.Drawing.Point(978, 340);
             this.goal2StartTime.Name = "goal2StartTime";
             this.goal2StartTime.Size = new System.Drawing.Size(67, 20);
-            this.goal2StartTime.TabIndex = 126;
+            this.goal2StartTime.TabIndex = 12;
             this.goal2StartTime.Value = new System.DateTime(2015, 10, 21, 11, 30, 0, 0);
             // 
             // label8
@@ -639,7 +647,7 @@
             this.participantName_tb.Location = new System.Drawing.Point(1059, 110);
             this.participantName_tb.Name = "participantName_tb";
             this.participantName_tb.Size = new System.Drawing.Size(160, 20);
-            this.participantName_tb.TabIndex = 111;
+            this.participantName_tb.TabIndex = 1;
             // 
             // label6
             // 
@@ -649,7 +657,7 @@
             this.label6.Location = new System.Drawing.Point(875, 110);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(178, 20);
-            this.label6.TabIndex = 131;
+            this.label6.TabIndex = 2;
             this.label6.Text = "Participant\'s Full Name: ";
             // 
             // label9
@@ -669,7 +677,7 @@
             this.details1_rtb.Location = new System.Drawing.Point(493, 283);
             this.details1_rtb.Name = "details1_rtb";
             this.details1_rtb.Size = new System.Drawing.Size(365, 51);
-            this.details1_rtb.TabIndex = 120;
+            this.details1_rtb.TabIndex = 6;
             this.details1_rtb.Text = "";
             // 
             // goal1EndTime
@@ -681,7 +689,7 @@
             this.goal1EndTime.Location = new System.Drawing.Point(746, 340);
             this.goal1EndTime.Name = "goal1EndTime";
             this.goal1EndTime.Size = new System.Drawing.Size(67, 20);
-            this.goal1EndTime.TabIndex = 122;
+            this.goal1EndTime.TabIndex = 8;
             this.goal1EndTime.Value = new System.DateTime(2015, 10, 21, 23, 30, 0, 0);
             // 
             // goal1StartTime
@@ -693,7 +701,7 @@
             this.goal1StartTime.Location = new System.Drawing.Point(595, 340);
             this.goal1StartTime.Name = "goal1StartTime";
             this.goal1StartTime.Size = new System.Drawing.Size(67, 20);
-            this.goal1StartTime.TabIndex = 121;
+            this.goal1StartTime.TabIndex = 7;
             this.goal1StartTime.Value = new System.DateTime(2015, 10, 21, 10, 0, 0, 0);
             // 
             // label5
@@ -726,7 +734,7 @@
             this.label3.Location = new System.Drawing.Point(526, 110);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(200, 20);
-            this.label3.TabIndex = 112;
+            this.label3.TabIndex = 1;
             this.label3.Text = "Please Select Todays Date";
             // 
             // CurrentDateTime_CF1
@@ -735,7 +743,7 @@
             this.CurrentDateTime_CF1.Location = new System.Drawing.Point(732, 110);
             this.CurrentDateTime_CF1.Name = "CurrentDateTime_CF1";
             this.CurrentDateTime_CF1.Size = new System.Drawing.Size(104, 20);
-            this.CurrentDateTime_CF1.TabIndex = 109;
+            this.CurrentDateTime_CF1.TabIndex = 0;
             this.CurrentDateTime_CF1.Value = new System.DateTime(2015, 10, 21, 0, 0, 0, 0);
             // 
             // label2
@@ -762,17 +770,118 @@
             // 
             // departureTimeDesc_tb
             // 
-            this.departureTimeDesc_tb.Location = new System.Drawing.Point(713, 578);
+            this.departureTimeDesc_tb.Location = new System.Drawing.Point(778, 578);
             this.departureTimeDesc_tb.Name = "departureTimeDesc_tb";
-            this.departureTimeDesc_tb.Size = new System.Drawing.Size(528, 20);
-            this.departureTimeDesc_tb.TabIndex = 155;
+            this.departureTimeDesc_tb.Size = new System.Drawing.Size(463, 20);
+            this.departureTimeDesc_tb.TabIndex = 25;
             // 
             // arrivalTimeDesc_tb
             // 
-            this.arrivalTimeDesc_tb.Location = new System.Drawing.Point(686, 146);
+            this.arrivalTimeDesc_tb.Location = new System.Drawing.Point(778, 146);
             this.arrivalTimeDesc_tb.Name = "arrivalTimeDesc_tb";
-            this.arrivalTimeDesc_tb.Size = new System.Drawing.Size(555, 20);
-            this.arrivalTimeDesc_tb.TabIndex = 156;
+            this.arrivalTimeDesc_tb.Size = new System.Drawing.Size(463, 20);
+            this.arrivalTimeDesc_tb.TabIndex = 3;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.BackColor = System.Drawing.Color.White;
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(694, 578);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(82, 20);
+            this.label20.TabIndex = 155;
+            this.label20.Text = "Comment:";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.BackColor = System.Drawing.Color.White;
+            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.Location = new System.Drawing.Point(694, 146);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(82, 20);
+            this.label23.TabIndex = 156;
+            this.label23.Text = "Comment:";
+            // 
+            // clearFromButton
+            // 
+            this.clearFromButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clearFromButton.Location = new System.Drawing.Point(455, 629);
+            this.clearFromButton.Name = "clearFromButton";
+            this.clearFromButton.Size = new System.Drawing.Size(125, 44);
+            this.clearFromButton.TabIndex = 157;
+            this.clearFromButton.Text = "Clear Form";
+            this.clearFromButton.UseVisualStyleBackColor = true;
+            this.clearFromButton.Click += new System.EventHandler(this.clearFromButton_Click);
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Select One",
+            "Independantly",
+            "Verbal Prompt",
+            "Demonstration Prompt",
+            "Physical Assistance",
+            "Not Tracked",
+            "Absent"});
+            this.comboBox1.Location = new System.Drawing.Point(723, 183);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(135, 21);
+            this.comboBox1.TabIndex = 158;
+            this.comboBox1.Text = "SelectOne";
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "Select One",
+            "Independantly",
+            "Verbal Prompt",
+            "Demonstration Prompt",
+            "Physical Assistance",
+            "Not Tracked",
+            "Absent"});
+            this.comboBox2.Location = new System.Drawing.Point(1106, 183);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(135, 21);
+            this.comboBox2.TabIndex = 159;
+            this.comboBox2.Text = "SelectOne";
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            "Select One",
+            "Independantly",
+            "Verbal Prompt",
+            "Demonstration Prompt",
+            "Physical Assistance",
+            "Not Tracked",
+            "Absent"});
+            this.comboBox3.Location = new System.Drawing.Point(723, 377);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(135, 21);
+            this.comboBox3.TabIndex = 160;
+            this.comboBox3.Text = "SelectOne";
+            // 
+            // comboBox4
+            // 
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Items.AddRange(new object[] {
+            "Select One",
+            "Independantly",
+            "Verbal Prompt",
+            "Demonstration Prompt",
+            "Physical Assistance",
+            "Not Tracked",
+            "Absent"});
+            this.comboBox4.Location = new System.Drawing.Point(1106, 377);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(135, 21);
+            this.comboBox4.TabIndex = 161;
+            this.comboBox4.Text = "SelectOne";
             // 
             // CreateNoteForm1
             // 
@@ -780,6 +889,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkKhaki;
             this.ClientSize = new System.Drawing.Size(1290, 680);
+            this.Controls.Add(this.comboBox4);
+            this.Controls.Add(this.comboBox3);
+            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.clearFromButton);
+            this.Controls.Add(this.label23);
+            this.Controls.Add(this.label20);
             this.Controls.Add(this.arrivalTimeDesc_tb);
             this.Controls.Add(this.departureTimeDesc_tb);
             this.Controls.Add(this.departureTime);
@@ -836,7 +952,8 @@
             this.Controls.Add(this.contract_tb);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "CreateNoteForm1";
-            this.Text = "Super Note :: Progress Note";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Super Note :: Create Note Step 1 of x";
             this.Load += new System.EventHandler(this.CreateNoteForm1_Load);
             this.contextMenuStrip1.ResumeLayout(false);
             this.contextMenuStrip2.ResumeLayout(false);
@@ -913,5 +1030,12 @@
         private System.Windows.Forms.RichTextBox contract_tb;
         private System.Windows.Forms.TextBox departureTimeDesc_tb;
         private System.Windows.Forms.TextBox arrivalTimeDesc_tb;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Button clearFromButton;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox comboBox4;
     }
 }

@@ -19,14 +19,10 @@ namespace WindowsFormsApplication1
 
         private void Form1_Load(object sender, EventArgs e)
         {
+
             CreateNoteForm1 form3 = new CreateNoteForm1();
             form3.Visible = true;
 
-            CreateNoteForm2 form4 = new CreateNoteForm2();
-            form4.Visible = true;
-
-            BodyCheck bodycheck = new BodyCheck();
-            bodycheck.Visible = true;
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)

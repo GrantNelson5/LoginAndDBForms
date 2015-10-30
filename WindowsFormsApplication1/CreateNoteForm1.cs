@@ -15,6 +15,11 @@ namespace WindowsFormsApplication1
 {
     public partial class CreateNoteForm1 : Form
     {
+
+        string docToTxtName;
+
+        
+
         public CreateNoteForm1()
         {
             InitializeComponent();
@@ -80,7 +85,7 @@ namespace WindowsFormsApplication1
 
                 string numberLine;
                 int count = 0;
-                readFile = File.OpenText("Test.txt");
+                readFile = File.OpenText(docToTxtName);
                 while ((numberLine = readFile.ReadLine()) != null)
                 {
                     count++;
@@ -88,13 +93,15 @@ namespace WindowsFormsApplication1
 
                 readFile.Close();
 
-                readFile = File.OpenText("Test.txt");
+                readFile = File.OpenText(docToTxtName);
 
                 for (int i = 0; i < count; i++)
                 {
                     string line = readFile.ReadLine();
                     contract_tb.Text += line + "\n";
                 }
+
+                readFile.Close();
             }
             catch (Exception ex)
             {
@@ -124,20 +131,14 @@ namespace WindowsFormsApplication1
                            Document document = new Document();
 
                            document.LoadFromFile(openFileDialog1.FileName);
-                    
 
-                    /************************************************************
-                    * Drashtee this is where the file gets saved as a .txt files
-                    * named Test, we need it to be saved as something that changes
-                    * so that we dont get the file is in use by another process
-                    * error, do this however you see fit. To test if it works, 
-                    * open 1 contract and then try to open another after the first
-                    * contract is successfully loaded
-                    *************************************************************/
+                    docToTxtName = openFileDialog1.FileName + ".txt";
 
                     //Save doc file to a txt format.
 
-                    document.SaveToFile("Test.txt", FileFormat.Txt);
+                    document.SaveToFile(docToTxtName, FileFormat.Txt);
+
+                    document.Close();
                             }
                             catch (Exception ex)
                             {
@@ -161,7 +162,7 @@ namespace WindowsFormsApplication1
             {
                 Document document = new Document();
 
-                document.LoadFromFile("Test.txt");
+                document.LoadFromFile(docToTxtName);
                 document.SaveToFile("PDFTest.pdf", FileFormat.PDF);
             }
             catch (Exception ex)
@@ -217,8 +218,8 @@ namespace WindowsFormsApplication1
         private void nextButton_Click(object sender, EventArgs e)
         {
             contract_tb.Clear();
-
-            contract_tb.Text = participantName_tb.Text + "\t \t \t \t \t" + CurrentDateTime_CF1.Text + "\n \n" +
+            string test;
+            test = participantName_tb.Text + "\t \t \t \t \t" + CurrentDateTime_CF1.Text + "\n \n" +
                 "Progress Notes are to include any daily activities, behavior issues, appointments and progress" +
                 " towards goals. Place all dates in parenthesis ( ) at the beginning of note on the far left side, circle the " +
                 " letter of the goal documenting on, include time beginning and ending of activity. Place signature and title after each data entry" +
@@ -251,6 +252,17 @@ namespace WindowsFormsApplication1
                 + "\n \n" +
 
                 departureTimeDesc_tb.Text + participantName_tb.Text + " got ready to leave and left the facility at " + departureTime.Text ;
+
+            CreateNoteForm2 nextStep = new CreateNoteForm2(participantName_tb.Text, CurrentDateTime_CF1.Text, arrivalTime, arrivalTimeDesc_tb.Text,
+                goal1StartTime, objective_cb1.Text, objective1_rtb.Text, details1_rtb.Text, goal1EndTime,
+                goal2StartTime, objective_cb1.Text, objective2_rtb.Text, details1_rtb.Text, goal2EndTime,
+                goal3StartTime, objective_cb1.Text, objective3_rtb.Text, details1_rtb.Text, goal3EndTime,
+                goal4StartTime, objective_cb1.Text, objective4_rtb.Text, details1_rtb.Text, goal4EndTime,
+                departureTime, departureTimeDesc_tb.Text);
+
+            nextStep.RefToForm1 = this;
+            this.Visible = false;
+            nextStep.Show();
         }
 
         private void CreateNoteForm1_Load(object sender, EventArgs e)
@@ -259,6 +271,25 @@ namespace WindowsFormsApplication1
             CurrentDateTime_CF1.Format = DateTimePickerFormat.Custom;
         }
 
+        private void clearButton_Click(object sender, EventArgs e)
+        {
+            contract_tb.Clear();
+        }
+
+        private void clearFromButton_Click(object sender, EventArgs e)
+        {
+            arrivalTimeDesc_tb.Clear();
+            departureTimeDesc_tb.Clear();
+            participantName_tb.Clear();
+            details1_rtb.Clear();
+            details2_rtb.Clear();
+            details3_rtb.Clear();
+            details4_rtb.Clear();
+            objective1_rtb.Clear();
+            objective2_rtb.Clear();
+            objective3_rtb.Clear();
+            objective4_rtb.Clear();
+        }
     }
 
 }
