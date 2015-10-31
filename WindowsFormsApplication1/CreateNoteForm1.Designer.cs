@@ -510,7 +510,7 @@
             this.goal3StartTime.Name = "goal3StartTime";
             this.goal3StartTime.Size = new System.Drawing.Size(67, 20);
             this.goal3StartTime.TabIndex = 24;
-            this.goal3StartTime.Value = new System.DateTime(2015, 10, 21, 0, 30, 0, 0);
+            this.goal3StartTime.Value = new System.DateTime(2015, 10, 21, 12, 30, 0, 0);
             // 
             // label13
             // 

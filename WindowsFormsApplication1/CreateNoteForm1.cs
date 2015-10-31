@@ -73,8 +73,8 @@ namespace WindowsFormsApplication1
         StreamReader openFile;
         string fileName;
 
-       
-        
+
+
         /**********************************************************
         * This is the method that send the text from the word doc
         * to the contract_tb control it reads from the text file 
@@ -82,7 +82,7 @@ namespace WindowsFormsApplication1
         ***********************************************************/
         private void TextToBox()
         {
-            
+
             try
             {
 
@@ -114,7 +114,7 @@ namespace WindowsFormsApplication1
             }
 
         }
-        
+
 
         private void importButton_Click(object sender, EventArgs e)
         {
@@ -125,15 +125,15 @@ namespace WindowsFormsApplication1
             // opening the openfiledialog1 control to allow the user to select a file
 
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
-                   {
-                       try
-                       {
+            {
+                try
+                {
 
-                           //Create a document object
+                    //Create a document object
 
-                           Document document = new Document();
+                    Document document = new Document();
 
-                           document.LoadFromFile(openFileDialog1.FileName);
+                    document.LoadFromFile(openFileDialog1.FileName);
 
                     docToTxtName = openFileDialog1.FileName + ".txt";
 
@@ -142,18 +142,18 @@ namespace WindowsFormsApplication1
                     document.SaveToFile(docToTxtName, FileFormat.Txt);
 
                     document.Close();
-                            }
-                            catch (Exception ex)
-                            {
-                                MessageBox.Show("The file could not be read: " + ex.Message);
-                            }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("The file could not be read: " + ex.Message);
+                }
 
                 TextToBox();
 
             }
         }
 
-        
+
         /*******************************************************************************
         * This is a test button labeled "save as pdf" on the create new progress note form
         * This is the code to load from a file and read from that file to a new fileformat
@@ -177,7 +177,7 @@ namespace WindowsFormsApplication1
         private void copyToolStripMenuItem_Click(object sender, EventArgs e)
         {
             contract_tb.Copy();
-    }
+        }
 
         private void copyToolStripMenuItem2_Click(object sender, EventArgs e)
         {
@@ -258,13 +258,13 @@ namespace WindowsFormsApplication1
                 */
 
 
-                CreateNoteForm2 nextStep = new CreateNoteForm2(participantName_tb.Text, 
-                CurrentDateTime_CF1.Text, arrivalTime, arrivalTimeDesc_tb.Text,
-                goal1StartTime, objective_cb1.Text, objective1_rtb.Text, details1_rtb.Text, goal1EndTime,
-                goal2StartTime, objective_cb1.Text, objective2_rtb.Text, details2_rtb.Text, goal2EndTime,
-                goal3StartTime, objective_cb1.Text, objective3_rtb.Text, details3_rtb.Text, goal3EndTime,
-                goal4StartTime, objective_cb1.Text, objective4_rtb.Text, details4_rtb.Text, goal4EndTime,
-                departureTime);
+            CreateNoteForm2 nextStep = new CreateNoteForm2(participantName_tb.Text,
+            CurrentDateTime_CF1.Text, arrivalTime, arrivalTimeDesc_tb.Text,
+            goal1StartTime, objective_cb1.Text, objective1_rtb.Text, details1_rtb.Text, goal1EndTime,
+            goal2StartTime, objective_cb2.Text, objective2_rtb.Text, details2_rtb.Text, goal2EndTime,
+            goal3StartTime, objective_cb3.Text, objective3_rtb.Text, details3_rtb.Text, goal3EndTime,
+            goal4StartTime, objective_cb4.Text, objective4_rtb.Text, details4_rtb.Text, goal4EndTime,
+            departureTime);
 
             nextStep.RefToForm1 = this;
             this.Visible = false;

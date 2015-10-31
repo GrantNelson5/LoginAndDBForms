@@ -211,11 +211,12 @@
             // 
             this.tantrumTime.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.tantrumTime.CalendarForeColor = System.Drawing.Color.Coral;
-            this.tantrumTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tantrumTime.CustomFormat = "h:mm tt";
+            this.tantrumTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tantrumTime.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.tantrumTime.Location = new System.Drawing.Point(138, 25);
             this.tantrumTime.Name = "tantrumTime";
-            this.tantrumTime.Size = new System.Drawing.Size(67, 22);
+            this.tantrumTime.Size = new System.Drawing.Size(67, 20);
             this.tantrumTime.TabIndex = 20;
             this.tantrumTime.Value = new System.DateTime(2015, 10, 21, 9, 0, 0, 0);
             // 
@@ -281,11 +282,12 @@
             // 
             this.seizureTime.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.seizureTime.CalendarForeColor = System.Drawing.Color.Coral;
-            this.seizureTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.seizureTime.CustomFormat = "h:mm tt";
+            this.seizureTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.seizureTime.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.seizureTime.Location = new System.Drawing.Point(133, 24);
             this.seizureTime.Name = "seizureTime";
-            this.seizureTime.Size = new System.Drawing.Size(67, 22);
+            this.seizureTime.Size = new System.Drawing.Size(67, 20);
             this.seizureTime.TabIndex = 15;
             this.seizureTime.Value = new System.DateTime(2015, 10, 21, 9, 0, 0, 0);
             // 
@@ -351,11 +353,12 @@
             // 
             this.bathroomTime.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.bathroomTime.CalendarForeColor = System.Drawing.Color.Coral;
-            this.bathroomTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bathroomTime.CustomFormat = "h:mm tt";
+            this.bathroomTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bathroomTime.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.bathroomTime.Location = new System.Drawing.Point(133, 27);
             this.bathroomTime.Name = "bathroomTime";
-            this.bathroomTime.Size = new System.Drawing.Size(67, 22);
+            this.bathroomTime.Size = new System.Drawing.Size(67, 20);
             this.bathroomTime.TabIndex = 10;
             this.bathroomTime.Value = new System.DateTime(2015, 10, 21, 9, 0, 0, 0);
             // 
@@ -421,11 +424,12 @@
             // 
             this.medicationTime.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.medicationTime.CalendarForeColor = System.Drawing.Color.Coral;
-            this.medicationTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.medicationTime.CustomFormat = "h:mm tt";
+            this.medicationTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.medicationTime.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.medicationTime.Location = new System.Drawing.Point(138, 27);
             this.medicationTime.Name = "medicationTime";
-            this.medicationTime.Size = new System.Drawing.Size(67, 22);
+            this.medicationTime.Size = new System.Drawing.Size(67, 20);
             this.medicationTime.TabIndex = 15;
             this.medicationTime.Value = new System.DateTime(2015, 10, 21, 9, 0, 0, 0);
             // 
@@ -482,11 +486,11 @@
             this.lunchTimeEnd.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.lunchTimeEnd.CalendarForeColor = System.Drawing.Color.Coral;
             this.lunchTimeEnd.CustomFormat = "h:mm tt";
-            this.lunchTimeEnd.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lunchTimeEnd.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lunchTimeEnd.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.lunchTimeEnd.Location = new System.Drawing.Point(267, 21);
             this.lunchTimeEnd.Name = "lunchTimeEnd";
-            this.lunchTimeEnd.Size = new System.Drawing.Size(67, 22);
+            this.lunchTimeEnd.Size = new System.Drawing.Size(67, 20);
             this.lunchTimeEnd.TabIndex = 12;
             this.lunchTimeEnd.Value = new System.DateTime(2015, 10, 21, 12, 0, 0, 0);
             // 
@@ -505,11 +509,11 @@
             this.lunchTimeStart.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.lunchTimeStart.CalendarForeColor = System.Drawing.Color.Coral;
             this.lunchTimeStart.CustomFormat = "h:mm tt";
-            this.lunchTimeStart.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lunchTimeStart.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lunchTimeStart.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.lunchTimeStart.Location = new System.Drawing.Point(138, 20);
             this.lunchTimeStart.Name = "lunchTimeStart";
-            this.lunchTimeStart.Size = new System.Drawing.Size(67, 22);
+            this.lunchTimeStart.Size = new System.Drawing.Size(67, 20);
             this.lunchTimeStart.TabIndex = 10;
             this.lunchTimeStart.Value = new System.DateTime(2015, 10, 21, 11, 0, 0, 0);
             // 
@@ -578,11 +582,11 @@
             this.coffeeTimeEnd.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.coffeeTimeEnd.CalendarForeColor = System.Drawing.Color.Coral;
             this.coffeeTimeEnd.CustomFormat = "h:mm tt";
-            this.coffeeTimeEnd.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.coffeeTimeEnd.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.coffeeTimeEnd.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.coffeeTimeEnd.Location = new System.Drawing.Point(262, 23);
             this.coffeeTimeEnd.Name = "coffeeTimeEnd";
-            this.coffeeTimeEnd.Size = new System.Drawing.Size(67, 22);
+            this.coffeeTimeEnd.Size = new System.Drawing.Size(67, 20);
             this.coffeeTimeEnd.TabIndex = 5;
             this.coffeeTimeEnd.Value = new System.DateTime(2015, 10, 21, 10, 0, 0, 0);
             // 
@@ -601,11 +605,11 @@
             this.coffeeTimeStart.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.coffeeTimeStart.CalendarForeColor = System.Drawing.Color.Coral;
             this.coffeeTimeStart.CustomFormat = "h:mm tt";
-            this.coffeeTimeStart.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.coffeeTimeStart.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.coffeeTimeStart.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.coffeeTimeStart.Location = new System.Drawing.Point(133, 22);
             this.coffeeTimeStart.Name = "coffeeTimeStart";
-            this.coffeeTimeStart.Size = new System.Drawing.Size(67, 22);
+            this.coffeeTimeStart.Size = new System.Drawing.Size(67, 20);
             this.coffeeTimeStart.TabIndex = 3;
             this.coffeeTimeStart.Value = new System.DateTime(2015, 10, 21, 9, 0, 0, 0);
             // 

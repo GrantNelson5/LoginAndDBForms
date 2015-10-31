@@ -89,6 +89,32 @@ namespace WindowsFormsApplication1
 
 
             InitializeComponent();
+
+            coffeeTimeStart.Format = DateTimePickerFormat.Custom;
+            coffeeTimeStart.ShowUpDown = true;
+
+            coffeeTimeEnd.Format = DateTimePickerFormat.Custom;
+            coffeeTimeEnd.ShowUpDown = true;
+
+            lunchTimeStart.Format = DateTimePickerFormat.Custom;
+            lunchTimeStart.ShowUpDown = true;
+
+            lunchTimeEnd.Format = DateTimePickerFormat.Custom;
+            lunchTimeEnd.ShowUpDown = true;
+
+            bathroomTime.Format = DateTimePickerFormat.Custom;
+            bathroomTime.ShowUpDown = true;
+
+            medicationTime.Format = DateTimePickerFormat.Custom;
+            medicationTime.ShowUpDown = true;
+
+            seizureTime.Format = DateTimePickerFormat.Custom;
+            seizureTime.ShowUpDown = true;
+
+            tantrumTime.Format = DateTimePickerFormat.Custom;
+            tantrumTime.ShowUpDown = true;
+
+
             //contract_tb.Text = progressNote;
 
             string header;
@@ -102,7 +128,7 @@ namespace WindowsFormsApplication1
 
 
             string arrival;
-                arrival = participantName + " arrived at the facility at " + arrivalTime.Text + arrivalTimeDesc + "\n \n";
+                arrival = participantName + " arrived at the facility at " + arrivalTime.Text + " " + arrivalTimeDesc + "\n \n";
 
             string goal1;
                 goal1 = "At " + goal1StartTime.Text + " " + participantName + " began their first objective. " +
@@ -151,6 +177,39 @@ namespace WindowsFormsApplication1
 
         private void SortTimesAndStrings()
         {
+            TimeSpan[] times = { }
+
+            List<TimeSpan> timeList = new List<TimeSpan>();
+
+            timeList.Add(goal1StartTime.Value.TimeOfDay);
+            timeList.Add(goal2StartTime.Value.TimeOfDay);
+            timeList.Add(goal3StartTime.Value.TimeOfDay);
+            timeList.Add(goal4StartTime.Value.TimeOfDay);
+            timeList.Add(goal1EndTime.Value.TimeOfDay);
+            timeList.Add(goal2EndTime.Value.TimeOfDay);
+            timeList.Add(goal3EndTime.Value.TimeOfDay);
+            timeList.Add(goal4EndTime.Value.TimeOfDay);
+            timeList.Add(arrivalTime.Value.TimeOfDay);
+            timeList.Add(departureTime.Value.TimeOfDay);
+            timeList.Add(coffeeTimeStart.Value.TimeOfDay);
+            timeList.Add(coffeeTimeEnd.Value.TimeOfDay);
+            timeList.Add(lunchTimeStart.Value.TimeOfDay);
+            timeList.Add(lunchTimeEnd.Value.TimeOfDay);
+            timeList.Add(bathroomTime.Value.TimeOfDay);
+            timeList.Add(medicationTime.Value.TimeOfDay);
+            timeList.Add(seizureTime.Value.TimeOfDay);
+            timeList.Add(tantrumTime.Value.TimeOfDay);
+
+            timeList.Sort();
+
+            
+            //if (times.Contains(timeList[0])) { }
+
+            for (int i = 0; i < timeList.Count; i++)
+            {
+                MessageBox.Show(timeList[i].ToString());
+            }
+
             /*
             if(goal1StartTime.Value.TimeOfDay > goal2StartTime.Value.TimeOfDay)
             {
@@ -162,11 +221,6 @@ namespace WindowsFormsApplication1
                 Console.Out.WriteLine("Failure");
             }
             */
-
-
-            
-
-
         }
 
     }
