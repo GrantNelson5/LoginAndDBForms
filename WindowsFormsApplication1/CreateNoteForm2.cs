@@ -177,7 +177,7 @@ namespace WindowsFormsApplication1
 
         private void SortTimesAndStrings()
         {
-            TimeSpan[] times = { }
+            TimeSpan[] times = { };
 
             List<TimeSpan> timeList = new List<TimeSpan>();
 
