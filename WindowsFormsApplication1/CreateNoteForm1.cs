@@ -18,10 +18,6 @@ namespace WindowsFormsApplication1
 
         string docToTxtName;
 
-        Boolean boolOne = false;
-        Boolean boolTwo = false;
-        Boolean boolThree = false;
-        Boolean boolFour = false;
 
         public CreateNoteForm1()
         {
@@ -61,6 +57,7 @@ namespace WindowsFormsApplication1
 
             departureTime.Format = DateTimePickerFormat.Custom;
             departureTime.ShowUpDown = true;
+
 
         }
 
@@ -279,6 +276,7 @@ namespace WindowsFormsApplication1
         {
             CurrentDateTime_CF1.Value = DateTime.Now;
             CurrentDateTime_CF1.Format = DateTimePickerFormat.Custom;
+            this.CenterToScreen();
         }
 
         private void clearButton_Click(object sender, EventArgs e)

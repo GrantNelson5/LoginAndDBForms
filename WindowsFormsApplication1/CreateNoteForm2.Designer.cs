@@ -34,34 +34,34 @@
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.button1 = new System.Windows.Forms.Button();
+            this.nextButton = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.tantrumTimeDesc = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.radioButton11 = new System.Windows.Forms.RadioButton();
             this.tantrumTime = new System.Windows.Forms.DateTimePicker();
             this.radioButton12 = new System.Windows.Forms.RadioButton();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.seizureTimeDesc = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.radioButton9 = new System.Windows.Forms.RadioButton();
             this.seizureTime = new System.Windows.Forms.DateTimePicker();
             this.radioButton10 = new System.Windows.Forms.RadioButton();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.bathroomTimeDesc = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.radioButton6 = new System.Windows.Forms.RadioButton();
             this.bathroomTime = new System.Windows.Forms.DateTimePicker();
             this.radioButton5 = new System.Windows.Forms.RadioButton();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.medicationTimeDesc = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.radioButton7 = new System.Windows.Forms.RadioButton();
             this.medicationTime = new System.Windows.Forms.DateTimePicker();
             this.radioButton8 = new System.Windows.Forms.RadioButton();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.lunchTimeDesc = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.lunchTimeEnd = new System.Windows.Forms.DateTimePicker();
             this.label5 = new System.Windows.Forms.Label();
@@ -69,7 +69,7 @@
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.coffeeTimeDesc = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.coffeeTimeEnd = new System.Windows.Forms.DateTimePicker();
             this.label2 = new System.Windows.Forms.Label();
@@ -89,7 +89,7 @@
             this.body_Check_chbx = new System.Windows.Forms.CheckBox();
             this.monthly_Data_Tracking_Log_chbx = new System.Windows.Forms.CheckBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.backButton = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -141,15 +141,16 @@
             this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
             this.helpToolStripMenuItem.Text = "Help";
             // 
-            // button1
+            // nextButton
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(1153, 629);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(125, 44);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Next >>";
-            this.button1.UseVisualStyleBackColor = true;
+            this.nextButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nextButton.Location = new System.Drawing.Point(1153, 629);
+            this.nextButton.Name = "nextButton";
+            this.nextButton.Size = new System.Drawing.Size(125, 44);
+            this.nextButton.TabIndex = 7;
+            this.nextButton.Text = "Next >>";
+            this.nextButton.UseVisualStyleBackColor = true;
+            this.nextButton.Click += new System.EventHandler(this.nextButton_Click);
             // 
             // pictureBox1
             // 
@@ -164,7 +165,7 @@
             // groupBox7
             // 
             this.groupBox7.BackColor = System.Drawing.Color.White;
-            this.groupBox7.Controls.Add(this.textBox6);
+            this.groupBox7.Controls.Add(this.tantrumTimeDesc);
             this.groupBox7.Controls.Add(this.label9);
             this.groupBox7.Controls.Add(this.radioButton11);
             this.groupBox7.Controls.Add(this.tantrumTime);
@@ -177,13 +178,13 @@
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "Tantrum";
             // 
-            // textBox6
+            // tantrumTimeDesc
             // 
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(100, 63);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(264, 22);
-            this.textBox6.TabIndex = 22;
+            this.tantrumTimeDesc.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tantrumTimeDesc.Location = new System.Drawing.Point(100, 63);
+            this.tantrumTimeDesc.Name = "tantrumTimeDesc";
+            this.tantrumTimeDesc.Size = new System.Drawing.Size(264, 22);
+            this.tantrumTimeDesc.TabIndex = 22;
             // 
             // label9
             // 
@@ -235,7 +236,7 @@
             // groupBox6
             // 
             this.groupBox6.BackColor = System.Drawing.Color.White;
-            this.groupBox6.Controls.Add(this.textBox5);
+            this.groupBox6.Controls.Add(this.seizureTimeDesc);
             this.groupBox6.Controls.Add(this.label8);
             this.groupBox6.Controls.Add(this.radioButton9);
             this.groupBox6.Controls.Add(this.seizureTime);
@@ -248,13 +249,13 @@
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Seizure";
             // 
-            // textBox5
+            // seizureTimeDesc
             // 
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(100, 63);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(264, 22);
-            this.textBox5.TabIndex = 17;
+            this.seizureTimeDesc.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.seizureTimeDesc.Location = new System.Drawing.Point(100, 63);
+            this.seizureTimeDesc.Name = "seizureTimeDesc";
+            this.seizureTimeDesc.Size = new System.Drawing.Size(264, 22);
+            this.seizureTimeDesc.TabIndex = 17;
             // 
             // label8
             // 
@@ -306,7 +307,7 @@
             // groupBox3
             // 
             this.groupBox3.BackColor = System.Drawing.Color.White;
-            this.groupBox3.Controls.Add(this.textBox3);
+            this.groupBox3.Controls.Add(this.bathroomTimeDesc);
             this.groupBox3.Controls.Add(this.label6);
             this.groupBox3.Controls.Add(this.radioButton6);
             this.groupBox3.Controls.Add(this.bathroomTime);
@@ -319,13 +320,13 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Bathroom";
             // 
-            // textBox3
+            // bathroomTimeDesc
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(95, 66);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(264, 22);
-            this.textBox3.TabIndex = 12;
+            this.bathroomTimeDesc.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bathroomTimeDesc.Location = new System.Drawing.Point(95, 66);
+            this.bathroomTimeDesc.Name = "bathroomTimeDesc";
+            this.bathroomTimeDesc.Size = new System.Drawing.Size(264, 22);
+            this.bathroomTimeDesc.TabIndex = 12;
             // 
             // label6
             // 
@@ -377,7 +378,7 @@
             // groupBox5
             // 
             this.groupBox5.BackColor = System.Drawing.Color.White;
-            this.groupBox5.Controls.Add(this.textBox4);
+            this.groupBox5.Controls.Add(this.medicationTimeDesc);
             this.groupBox5.Controls.Add(this.label7);
             this.groupBox5.Controls.Add(this.radioButton7);
             this.groupBox5.Controls.Add(this.medicationTime);
@@ -390,13 +391,13 @@
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Medication";
             // 
-            // textBox4
+            // medicationTimeDesc
             // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(100, 66);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(264, 22);
-            this.textBox4.TabIndex = 17;
+            this.medicationTimeDesc.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.medicationTimeDesc.Location = new System.Drawing.Point(100, 66);
+            this.medicationTimeDesc.Name = "medicationTimeDesc";
+            this.medicationTimeDesc.Size = new System.Drawing.Size(264, 22);
+            this.medicationTimeDesc.TabIndex = 17;
             // 
             // label7
             // 
@@ -448,7 +449,7 @@
             // groupBox4
             // 
             this.groupBox4.BackColor = System.Drawing.Color.White;
-            this.groupBox4.Controls.Add(this.textBox2);
+            this.groupBox4.Controls.Add(this.lunchTimeDesc);
             this.groupBox4.Controls.Add(this.label4);
             this.groupBox4.Controls.Add(this.lunchTimeEnd);
             this.groupBox4.Controls.Add(this.label5);
@@ -463,13 +464,13 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Lunch";
             // 
-            // textBox2
+            // lunchTimeDesc
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(100, 59);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(264, 22);
-            this.textBox2.TabIndex = 14;
+            this.lunchTimeDesc.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lunchTimeDesc.Location = new System.Drawing.Point(100, 59);
+            this.lunchTimeDesc.Name = "lunchTimeDesc";
+            this.lunchTimeDesc.Size = new System.Drawing.Size(264, 22);
+            this.lunchTimeDesc.TabIndex = 14;
             // 
             // label4
             // 
@@ -544,7 +545,7 @@
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.White;
-            this.groupBox2.Controls.Add(this.textBox1);
+            this.groupBox2.Controls.Add(this.coffeeTimeDesc);
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.coffeeTimeEnd);
             this.groupBox2.Controls.Add(this.label2);
@@ -559,13 +560,13 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Coffee Time";
             // 
-            // textBox1
+            // coffeeTimeDesc
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(95, 61);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(264, 22);
-            this.textBox1.TabIndex = 7;
+            this.coffeeTimeDesc.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.coffeeTimeDesc.Location = new System.Drawing.Point(95, 61);
+            this.coffeeTimeDesc.Name = "coffeeTimeDesc";
+            this.coffeeTimeDesc.Size = new System.Drawing.Size(264, 22);
+            this.coffeeTimeDesc.TabIndex = 7;
             // 
             // label3
             // 
@@ -780,16 +781,16 @@
             this.label1.TabIndex = 9;
             this.label1.Text = "Create a new progress note";
             // 
-            // button2
+            // backButton
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(22, 629);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(125, 44);
-            this.button2.TabIndex = 23;
-            this.button2.Text = "<< Back";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.backButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.backButton.Location = new System.Drawing.Point(22, 629);
+            this.backButton.Name = "backButton";
+            this.backButton.Size = new System.Drawing.Size(125, 44);
+            this.backButton.TabIndex = 23;
+            this.backButton.Text = "<< Back";
+            this.backButton.UseVisualStyleBackColor = true;
+            this.backButton.Click += new System.EventHandler(this.backButton_Click);
             // 
             // label10
             // 
@@ -808,7 +809,7 @@
             this.BackColor = System.Drawing.Color.DarkKhaki;
             this.ClientSize = new System.Drawing.Size(1290, 680);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.backButton);
             this.Controls.Add(this.groupBox7);
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.groupBox3);
@@ -818,7 +819,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.nextButton);
             this.Controls.Add(this.previewNote_tb);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
@@ -854,34 +855,34 @@
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem editToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button nextButton;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.GroupBox groupBox7;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox tantrumTimeDesc;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.RadioButton radioButton11;
         private System.Windows.Forms.DateTimePicker tantrumTime;
         private System.Windows.Forms.RadioButton radioButton12;
         private System.Windows.Forms.GroupBox groupBox6;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox seizureTimeDesc;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.RadioButton radioButton9;
         private System.Windows.Forms.DateTimePicker seizureTime;
         private System.Windows.Forms.RadioButton radioButton10;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox bathroomTimeDesc;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.RadioButton radioButton6;
         private System.Windows.Forms.DateTimePicker bathroomTime;
         private System.Windows.Forms.RadioButton radioButton5;
         private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox medicationTimeDesc;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.RadioButton radioButton7;
         private System.Windows.Forms.DateTimePicker medicationTime;
         private System.Windows.Forms.RadioButton radioButton8;
         private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox lunchTimeDesc;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.DateTimePicker lunchTimeEnd;
         private System.Windows.Forms.Label label5;
@@ -889,7 +890,7 @@
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.RadioButton radioButton4;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox coffeeTimeDesc;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.DateTimePicker coffeeTimeEnd;
         private System.Windows.Forms.Label label2;
@@ -909,7 +910,7 @@
         private System.Windows.Forms.CheckBox body_Check_chbx;
         private System.Windows.Forms.CheckBox monthly_Data_Tracking_Log_chbx;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button backButton;
         private System.Windows.Forms.Label label10;
     }
 }
