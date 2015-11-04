@@ -201,7 +201,7 @@
             this.bodyCheckTime.Location = new System.Drawing.Point(205, 77);
             this.bodyCheckTime.Name = "bodyCheckTime";
             this.bodyCheckTime.Size = new System.Drawing.Size(67, 20);
-            this.bodyCheckTime.TabIndex = 61;
+            this.bodyCheckTime.TabIndex = 2;
             this.bodyCheckTime.Value = new System.DateTime(2015, 10, 24, 10, 0, 0, 0);
             // 
             // label4
@@ -211,7 +211,7 @@
             this.label4.Location = new System.Drawing.Point(201, 54);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(47, 20);
-            this.label4.TabIndex = 60;
+            this.label4.TabIndex = 1;
             this.label4.Text = "Time:";
             // 
             // textBox1
@@ -220,7 +220,7 @@
             this.textBox1.Location = new System.Drawing.Point(18, 77);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(123, 20);
-            this.textBox1.TabIndex = 59;
+            this.textBox1.TabIndex = 1;
             // 
             // bodyCheckDate
             // 
@@ -229,7 +229,7 @@
             this.bodyCheckDate.Location = new System.Drawing.Point(338, 77);
             this.bodyCheckDate.Name = "bodyCheckDate";
             this.bodyCheckDate.Size = new System.Drawing.Size(74, 20);
-            this.bodyCheckDate.TabIndex = 58;
+            this.bodyCheckDate.TabIndex = 3;
             // 
             // label3
             // 
@@ -240,7 +240,7 @@
             this.label3.Location = new System.Drawing.Point(14, 54);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(132, 20);
-            this.label3.TabIndex = 57;
+            this.label3.TabIndex = 0;
             this.label3.Text = "Participant name:";
             // 
             // label2
@@ -250,7 +250,7 @@
             this.label2.Location = new System.Drawing.Point(334, 54);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(48, 20);
-            this.label2.TabIndex = 56;
+            this.label2.TabIndex = 2;
             this.label2.Text = "Date:";
             // 
             // redPenColor_pb
@@ -384,7 +384,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.BackColor = System.Drawing.Color.DarkKhaki;
+            this.BackColor = System.Drawing.Color.Lavender;
             this.ClientSize = new System.Drawing.Size(1290, 680);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.penSize_nud);
