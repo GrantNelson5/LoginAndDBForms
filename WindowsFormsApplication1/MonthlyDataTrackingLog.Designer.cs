@@ -200,7 +200,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.21008F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 21.32353F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 18.17227F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 124F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 126F));
             this.tableLayoutPanel1.Controls.Add(this.numericUpDown22, 0, 22);
             this.tableLayoutPanel1.Controls.Add(this.numericUpDown21, 4, 21);
             this.tableLayoutPanel1.Controls.Add(this.numericUpDown20, 4, 20);
@@ -360,7 +360,7 @@
             // 
             this.numericUpDown21.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDown21.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.numericUpDown21.Location = new System.Drawing.Point(870, 633);
+            this.numericUpDown21.Location = new System.Drawing.Point(867, 633);
             this.numericUpDown21.Name = "numericUpDown21";
             this.numericUpDown21.Size = new System.Drawing.Size(114, 26);
             this.numericUpDown21.TabIndex = 126;
@@ -374,7 +374,7 @@
             // 
             this.numericUpDown20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDown20.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.numericUpDown20.Location = new System.Drawing.Point(870, 603);
+            this.numericUpDown20.Location = new System.Drawing.Point(867, 603);
             this.numericUpDown20.Name = "numericUpDown20";
             this.numericUpDown20.Size = new System.Drawing.Size(114, 26);
             this.numericUpDown20.TabIndex = 125;
@@ -388,7 +388,7 @@
             // 
             this.numericUpDown19.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDown19.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.numericUpDown19.Location = new System.Drawing.Point(870, 573);
+            this.numericUpDown19.Location = new System.Drawing.Point(867, 573);
             this.numericUpDown19.Name = "numericUpDown19";
             this.numericUpDown19.Size = new System.Drawing.Size(114, 26);
             this.numericUpDown19.TabIndex = 124;
@@ -402,7 +402,7 @@
             // 
             this.numericUpDown18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDown18.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.numericUpDown18.Location = new System.Drawing.Point(870, 543);
+            this.numericUpDown18.Location = new System.Drawing.Point(867, 543);
             this.numericUpDown18.Name = "numericUpDown18";
             this.numericUpDown18.Size = new System.Drawing.Size(114, 26);
             this.numericUpDown18.TabIndex = 123;
@@ -416,7 +416,7 @@
             // 
             this.numericUpDown17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDown17.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.numericUpDown17.Location = new System.Drawing.Point(870, 513);
+            this.numericUpDown17.Location = new System.Drawing.Point(867, 513);
             this.numericUpDown17.Name = "numericUpDown17";
             this.numericUpDown17.Size = new System.Drawing.Size(114, 26);
             this.numericUpDown17.TabIndex = 122;
@@ -430,7 +430,7 @@
             // 
             this.numericUpDown16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDown16.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.numericUpDown16.Location = new System.Drawing.Point(870, 483);
+            this.numericUpDown16.Location = new System.Drawing.Point(867, 483);
             this.numericUpDown16.Name = "numericUpDown16";
             this.numericUpDown16.Size = new System.Drawing.Size(114, 26);
             this.numericUpDown16.TabIndex = 121;
@@ -444,7 +444,7 @@
             // 
             this.numericUpDown15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDown15.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.numericUpDown15.Location = new System.Drawing.Point(870, 453);
+            this.numericUpDown15.Location = new System.Drawing.Point(867, 453);
             this.numericUpDown15.Name = "numericUpDown15";
             this.numericUpDown15.Size = new System.Drawing.Size(114, 26);
             this.numericUpDown15.TabIndex = 120;
@@ -458,7 +458,7 @@
             // 
             this.numericUpDown14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDown14.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.numericUpDown14.Location = new System.Drawing.Point(870, 423);
+            this.numericUpDown14.Location = new System.Drawing.Point(867, 423);
             this.numericUpDown14.Name = "numericUpDown14";
             this.numericUpDown14.Size = new System.Drawing.Size(114, 26);
             this.numericUpDown14.TabIndex = 119;
@@ -472,7 +472,7 @@
             // 
             this.numericUpDown13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDown13.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.numericUpDown13.Location = new System.Drawing.Point(870, 393);
+            this.numericUpDown13.Location = new System.Drawing.Point(867, 393);
             this.numericUpDown13.Name = "numericUpDown13";
             this.numericUpDown13.Size = new System.Drawing.Size(114, 26);
             this.numericUpDown13.TabIndex = 118;
@@ -486,7 +486,7 @@
             // 
             this.numericUpDown12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDown12.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.numericUpDown12.Location = new System.Drawing.Point(870, 363);
+            this.numericUpDown12.Location = new System.Drawing.Point(867, 363);
             this.numericUpDown12.Name = "numericUpDown12";
             this.numericUpDown12.Size = new System.Drawing.Size(114, 26);
             this.numericUpDown12.TabIndex = 117;
@@ -500,7 +500,7 @@
             // 
             this.numericUpDown11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDown11.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.numericUpDown11.Location = new System.Drawing.Point(870, 333);
+            this.numericUpDown11.Location = new System.Drawing.Point(867, 333);
             this.numericUpDown11.Name = "numericUpDown11";
             this.numericUpDown11.Size = new System.Drawing.Size(114, 26);
             this.numericUpDown11.TabIndex = 116;
@@ -514,7 +514,7 @@
             // 
             this.numericUpDown10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDown10.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.numericUpDown10.Location = new System.Drawing.Point(870, 303);
+            this.numericUpDown10.Location = new System.Drawing.Point(867, 303);
             this.numericUpDown10.Name = "numericUpDown10";
             this.numericUpDown10.Size = new System.Drawing.Size(114, 26);
             this.numericUpDown10.TabIndex = 115;
@@ -528,7 +528,7 @@
             // 
             this.numericUpDown9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDown9.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.numericUpDown9.Location = new System.Drawing.Point(870, 273);
+            this.numericUpDown9.Location = new System.Drawing.Point(867, 273);
             this.numericUpDown9.Name = "numericUpDown9";
             this.numericUpDown9.Size = new System.Drawing.Size(114, 26);
             this.numericUpDown9.TabIndex = 114;
@@ -542,7 +542,7 @@
             // 
             this.numericUpDown8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDown8.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.numericUpDown8.Location = new System.Drawing.Point(870, 243);
+            this.numericUpDown8.Location = new System.Drawing.Point(867, 243);
             this.numericUpDown8.Name = "numericUpDown8";
             this.numericUpDown8.Size = new System.Drawing.Size(114, 26);
             this.numericUpDown8.TabIndex = 113;
@@ -556,7 +556,7 @@
             // 
             this.numericUpDown7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDown7.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.numericUpDown7.Location = new System.Drawing.Point(870, 213);
+            this.numericUpDown7.Location = new System.Drawing.Point(867, 213);
             this.numericUpDown7.Name = "numericUpDown7";
             this.numericUpDown7.Size = new System.Drawing.Size(114, 26);
             this.numericUpDown7.TabIndex = 112;
@@ -570,7 +570,7 @@
             // 
             this.numericUpDown6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDown6.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.numericUpDown6.Location = new System.Drawing.Point(870, 183);
+            this.numericUpDown6.Location = new System.Drawing.Point(867, 183);
             this.numericUpDown6.Name = "numericUpDown6";
             this.numericUpDown6.Size = new System.Drawing.Size(114, 26);
             this.numericUpDown6.TabIndex = 111;
@@ -584,7 +584,7 @@
             // 
             this.numericUpDown5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDown5.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.numericUpDown5.Location = new System.Drawing.Point(870, 153);
+            this.numericUpDown5.Location = new System.Drawing.Point(867, 153);
             this.numericUpDown5.Name = "numericUpDown5";
             this.numericUpDown5.Size = new System.Drawing.Size(114, 26);
             this.numericUpDown5.TabIndex = 110;
@@ -598,7 +598,7 @@
             // 
             this.numericUpDown4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDown4.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.numericUpDown4.Location = new System.Drawing.Point(870, 123);
+            this.numericUpDown4.Location = new System.Drawing.Point(867, 123);
             this.numericUpDown4.Name = "numericUpDown4";
             this.numericUpDown4.Size = new System.Drawing.Size(114, 26);
             this.numericUpDown4.TabIndex = 109;
@@ -612,7 +612,7 @@
             // 
             this.numericUpDown3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDown3.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.numericUpDown3.Location = new System.Drawing.Point(870, 93);
+            this.numericUpDown3.Location = new System.Drawing.Point(867, 93);
             this.numericUpDown3.Name = "numericUpDown3";
             this.numericUpDown3.Size = new System.Drawing.Size(114, 26);
             this.numericUpDown3.TabIndex = 108;
@@ -626,7 +626,7 @@
             // 
             this.numericUpDown2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDown2.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.numericUpDown2.Location = new System.Drawing.Point(870, 63);
+            this.numericUpDown2.Location = new System.Drawing.Point(867, 63);
             this.numericUpDown2.Name = "numericUpDown2";
             this.numericUpDown2.Size = new System.Drawing.Size(114, 26);
             this.numericUpDown2.TabIndex = 107;
@@ -639,7 +639,7 @@
             // dateTimePicker27
             // 
             this.dateTimePicker27.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker27.Location = new System.Drawing.Point(713, 423);
+            this.dateTimePicker27.Location = new System.Drawing.Point(710, 423);
             this.dateTimePicker27.Name = "dateTimePicker27";
             this.dateTimePicker27.Size = new System.Drawing.Size(151, 20);
             this.dateTimePicker27.TabIndex = 105;
@@ -647,7 +647,7 @@
             // dateTimePicker25
             // 
             this.dateTimePicker25.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker25.Location = new System.Drawing.Point(713, 393);
+            this.dateTimePicker25.Location = new System.Drawing.Point(710, 393);
             this.dateTimePicker25.Name = "dateTimePicker25";
             this.dateTimePicker25.Size = new System.Drawing.Size(151, 20);
             this.dateTimePicker25.TabIndex = 103;
@@ -655,7 +655,7 @@
             // dateTimePicker23
             // 
             this.dateTimePicker23.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker23.Location = new System.Drawing.Point(713, 363);
+            this.dateTimePicker23.Location = new System.Drawing.Point(710, 363);
             this.dateTimePicker23.Name = "dateTimePicker23";
             this.dateTimePicker23.Size = new System.Drawing.Size(151, 20);
             this.dateTimePicker23.TabIndex = 101;
@@ -663,7 +663,7 @@
             // dateTimePicker21
             // 
             this.dateTimePicker21.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker21.Location = new System.Drawing.Point(713, 333);
+            this.dateTimePicker21.Location = new System.Drawing.Point(710, 333);
             this.dateTimePicker21.Name = "dateTimePicker21";
             this.dateTimePicker21.Size = new System.Drawing.Size(151, 20);
             this.dateTimePicker21.TabIndex = 99;
@@ -671,7 +671,7 @@
             // dateTimePicker19
             // 
             this.dateTimePicker19.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker19.Location = new System.Drawing.Point(713, 303);
+            this.dateTimePicker19.Location = new System.Drawing.Point(710, 303);
             this.dateTimePicker19.Name = "dateTimePicker19";
             this.dateTimePicker19.Size = new System.Drawing.Size(151, 20);
             this.dateTimePicker19.TabIndex = 97;
@@ -679,7 +679,7 @@
             // dateTimePicker17
             // 
             this.dateTimePicker17.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker17.Location = new System.Drawing.Point(713, 273);
+            this.dateTimePicker17.Location = new System.Drawing.Point(710, 273);
             this.dateTimePicker17.Name = "dateTimePicker17";
             this.dateTimePicker17.Size = new System.Drawing.Size(151, 20);
             this.dateTimePicker17.TabIndex = 95;
@@ -687,7 +687,7 @@
             // dateTimePicker15
             // 
             this.dateTimePicker15.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker15.Location = new System.Drawing.Point(713, 243);
+            this.dateTimePicker15.Location = new System.Drawing.Point(710, 243);
             this.dateTimePicker15.Name = "dateTimePicker15";
             this.dateTimePicker15.Size = new System.Drawing.Size(151, 20);
             this.dateTimePicker15.TabIndex = 93;
@@ -695,7 +695,7 @@
             // dateTimePicker13
             // 
             this.dateTimePicker13.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker13.Location = new System.Drawing.Point(713, 213);
+            this.dateTimePicker13.Location = new System.Drawing.Point(710, 213);
             this.dateTimePicker13.Name = "dateTimePicker13";
             this.dateTimePicker13.Size = new System.Drawing.Size(151, 20);
             this.dateTimePicker13.TabIndex = 91;
@@ -703,7 +703,7 @@
             // dateTimePicker11
             // 
             this.dateTimePicker11.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker11.Location = new System.Drawing.Point(713, 183);
+            this.dateTimePicker11.Location = new System.Drawing.Point(710, 183);
             this.dateTimePicker11.Name = "dateTimePicker11";
             this.dateTimePicker11.Size = new System.Drawing.Size(151, 20);
             this.dateTimePicker11.TabIndex = 89;
@@ -711,7 +711,7 @@
             // dateTimePicker9
             // 
             this.dateTimePicker9.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker9.Location = new System.Drawing.Point(713, 153);
+            this.dateTimePicker9.Location = new System.Drawing.Point(710, 153);
             this.dateTimePicker9.Name = "dateTimePicker9";
             this.dateTimePicker9.Size = new System.Drawing.Size(151, 20);
             this.dateTimePicker9.TabIndex = 87;
@@ -719,7 +719,7 @@
             // dateTimePicker7
             // 
             this.dateTimePicker7.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker7.Location = new System.Drawing.Point(713, 123);
+            this.dateTimePicker7.Location = new System.Drawing.Point(710, 123);
             this.dateTimePicker7.Name = "dateTimePicker7";
             this.dateTimePicker7.Size = new System.Drawing.Size(151, 20);
             this.dateTimePicker7.TabIndex = 85;
@@ -727,7 +727,7 @@
             // dateTimePicker5
             // 
             this.dateTimePicker5.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker5.Location = new System.Drawing.Point(713, 93);
+            this.dateTimePicker5.Location = new System.Drawing.Point(710, 93);
             this.dateTimePicker5.Name = "dateTimePicker5";
             this.dateTimePicker5.Size = new System.Drawing.Size(151, 20);
             this.dateTimePicker5.TabIndex = 83;
@@ -735,7 +735,7 @@
             // dateTimePicker3
             // 
             this.dateTimePicker3.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker3.Location = new System.Drawing.Point(713, 63);
+            this.dateTimePicker3.Location = new System.Drawing.Point(710, 63);
             this.dateTimePicker3.Name = "dateTimePicker3";
             this.dateTimePicker3.Size = new System.Drawing.Size(151, 20);
             this.dateTimePicker3.TabIndex = 81;
@@ -749,9 +749,9 @@
             this.domainUpDown43.Items.Add("2) Easily managed by diet/supplement");
             this.domainUpDown43.Items.Add("3) On-going preventative management");
             this.domainUpDown43.Items.Add("4) Hospital admission for impaction/obstruction");
-            this.domainUpDown43.Location = new System.Drawing.Point(528, 243);
+            this.domainUpDown43.Location = new System.Drawing.Point(526, 243);
             this.domainUpDown43.Name = "domainUpDown43";
-            this.domainUpDown43.Size = new System.Drawing.Size(179, 26);
+            this.domainUpDown43.Size = new System.Drawing.Size(178, 26);
             this.domainUpDown43.TabIndex = 77;
             this.domainUpDown43.Text = "choose...";
             // 
@@ -764,9 +764,9 @@
             this.domainUpDown40.Items.Add("2) Easily managed by diet/supplement");
             this.domainUpDown40.Items.Add("3) On-going preventative management");
             this.domainUpDown40.Items.Add("4) Hospital admission for impaction/obstruction");
-            this.domainUpDown40.Location = new System.Drawing.Point(528, 213);
+            this.domainUpDown40.Location = new System.Drawing.Point(526, 213);
             this.domainUpDown40.Name = "domainUpDown40";
-            this.domainUpDown40.Size = new System.Drawing.Size(179, 26);
+            this.domainUpDown40.Size = new System.Drawing.Size(178, 26);
             this.domainUpDown40.TabIndex = 74;
             this.domainUpDown40.Text = "choose...";
             // 
@@ -779,9 +779,9 @@
             this.domainUpDown37.Items.Add("2) Easily managed by diet/supplement");
             this.domainUpDown37.Items.Add("3) On-going preventative management");
             this.domainUpDown37.Items.Add("4) Hospital admission for impaction/obstruction");
-            this.domainUpDown37.Location = new System.Drawing.Point(528, 183);
+            this.domainUpDown37.Location = new System.Drawing.Point(526, 183);
             this.domainUpDown37.Name = "domainUpDown37";
-            this.domainUpDown37.Size = new System.Drawing.Size(179, 26);
+            this.domainUpDown37.Size = new System.Drawing.Size(178, 26);
             this.domainUpDown37.TabIndex = 71;
             this.domainUpDown37.Text = "choose...";
             // 
@@ -794,9 +794,9 @@
             this.domainUpDown34.Items.Add("2) Easily managed by diet/supplement");
             this.domainUpDown34.Items.Add("3) On-going preventative management");
             this.domainUpDown34.Items.Add("4) Hospital admission for impaction/obstruction");
-            this.domainUpDown34.Location = new System.Drawing.Point(528, 153);
+            this.domainUpDown34.Location = new System.Drawing.Point(526, 153);
             this.domainUpDown34.Name = "domainUpDown34";
-            this.domainUpDown34.Size = new System.Drawing.Size(179, 26);
+            this.domainUpDown34.Size = new System.Drawing.Size(178, 26);
             this.domainUpDown34.TabIndex = 68;
             this.domainUpDown34.Text = "choose...";
             // 
@@ -809,9 +809,9 @@
             this.domainUpDown31.Items.Add("2) Easily managed by diet/supplement");
             this.domainUpDown31.Items.Add("3) On-going preventative management");
             this.domainUpDown31.Items.Add("4) Hospital admission for impaction/obstruction");
-            this.domainUpDown31.Location = new System.Drawing.Point(528, 123);
+            this.domainUpDown31.Location = new System.Drawing.Point(526, 123);
             this.domainUpDown31.Name = "domainUpDown31";
-            this.domainUpDown31.Size = new System.Drawing.Size(179, 26);
+            this.domainUpDown31.Size = new System.Drawing.Size(178, 26);
             this.domainUpDown31.TabIndex = 65;
             this.domainUpDown31.Text = "choose...";
             // 
@@ -824,9 +824,9 @@
             this.domainUpDown28.Items.Add("2) Easily managed by diet/supplement");
             this.domainUpDown28.Items.Add("3) On-going preventative management");
             this.domainUpDown28.Items.Add("4) Hospital admission for impaction/obstruction");
-            this.domainUpDown28.Location = new System.Drawing.Point(528, 93);
+            this.domainUpDown28.Location = new System.Drawing.Point(526, 93);
             this.domainUpDown28.Name = "domainUpDown28";
-            this.domainUpDown28.Size = new System.Drawing.Size(179, 26);
+            this.domainUpDown28.Size = new System.Drawing.Size(178, 26);
             this.domainUpDown28.TabIndex = 62;
             this.domainUpDown28.Text = "choose...";
             // 
@@ -839,9 +839,9 @@
             this.domainUpDown25.Items.Add("2) Easily managed by diet/supplement");
             this.domainUpDown25.Items.Add("3) On-going preventative management");
             this.domainUpDown25.Items.Add("4) Hospital admission for impaction/obstruction");
-            this.domainUpDown25.Location = new System.Drawing.Point(528, 63);
+            this.domainUpDown25.Location = new System.Drawing.Point(526, 63);
             this.domainUpDown25.Name = "domainUpDown25";
-            this.domainUpDown25.Size = new System.Drawing.Size(179, 26);
+            this.domainUpDown25.Size = new System.Drawing.Size(178, 26);
             this.domainUpDown25.TabIndex = 59;
             this.domainUpDown25.Text = "choose...";
             // 
@@ -854,9 +854,9 @@
             this.domainUpDown22.Items.Add("2) Easily managed by diet/supplement");
             this.domainUpDown22.Items.Add("3) On-going preventative management");
             this.domainUpDown22.Items.Add("4) Hospital admission for impaction/obstruction");
-            this.domainUpDown22.Location = new System.Drawing.Point(528, 33);
+            this.domainUpDown22.Location = new System.Drawing.Point(526, 33);
             this.domainUpDown22.Name = "domainUpDown22";
-            this.domainUpDown22.Size = new System.Drawing.Size(179, 26);
+            this.domainUpDown22.Size = new System.Drawing.Size(178, 26);
             this.domainUpDown22.TabIndex = 56;
             this.domainUpDown22.Text = "choose...";
             // 
@@ -865,25 +865,25 @@
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(3, 30);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(300, 23);
+            this.label9.Size = new System.Drawing.Size(299, 23);
             this.label9.TabIndex = 4;
             this.label9.Text = "Days Missed from Day Center Due to Illness";
             // 
             // label7
             // 
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(528, 0);
+            this.label7.Location = new System.Drawing.Point(526, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(179, 23);
+            this.label7.Size = new System.Drawing.Size(178, 23);
             this.label7.TabIndex = 2;
             this.label7.Text = "Bowel Management:";
             // 
             // label6
             // 
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(309, 0);
+            this.label6.Location = new System.Drawing.Point(308, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(213, 23);
+            this.label6.Size = new System.Drawing.Size(212, 23);
             this.label6.TabIndex = 1;
             this.label6.Text = "Skin Breakdown:";
             // 
@@ -892,7 +892,7 @@
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(3, 60);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(300, 23);
+            this.label10.Size = new System.Drawing.Size(299, 23);
             this.label10.TabIndex = 5;
             this.label10.Text = "Self-Abuse Occurrences";
             // 
@@ -901,7 +901,7 @@
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.Location = new System.Drawing.Point(3, 90);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(300, 23);
+            this.label11.Size = new System.Drawing.Size(299, 23);
             this.label11.TabIndex = 6;
             this.label11.Text = "Aggression Occurrences*";
             // 
@@ -910,7 +910,7 @@
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.Location = new System.Drawing.Point(3, 120);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(300, 23);
+            this.label12.Size = new System.Drawing.Size(299, 23);
             this.label12.TabIndex = 7;
             this.label12.Text = "Tantrum*";
             // 
@@ -919,7 +919,7 @@
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.Location = new System.Drawing.Point(3, 180);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(300, 23);
+            this.label14.Size = new System.Drawing.Size(299, 23);
             this.label14.TabIndex = 9;
             this.label14.Text = "Emergency Drug Use for Behavior";
             // 
@@ -928,7 +928,7 @@
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.Location = new System.Drawing.Point(3, 150);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(300, 23);
+            this.label13.Size = new System.Drawing.Size(299, 23);
             this.label13.TabIndex = 8;
             this.label13.Text = "Physical Restraints*";
             // 
@@ -937,7 +937,7 @@
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.Location = new System.Drawing.Point(3, 210);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(300, 23);
+            this.label15.Size = new System.Drawing.Size(299, 23);
             this.label15.TabIndex = 10;
             this.label15.Text = "Medication & Treatment Refusals/month";
             // 
@@ -946,7 +946,7 @@
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.Location = new System.Drawing.Point(3, 240);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(300, 23);
+            this.label16.Size = new System.Drawing.Size(299, 23);
             this.label16.TabIndex = 11;
             this.label16.Text = "Gastrointestinal Episodes*";
             // 
@@ -964,7 +964,7 @@
             this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.Location = new System.Drawing.Point(3, 300);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(300, 23);
+            this.label18.Size = new System.Drawing.Size(299, 23);
             this.label18.TabIndex = 13;
             this.label18.Text = "Skin Breakdown*";
             // 
@@ -973,7 +973,7 @@
             this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.Location = new System.Drawing.Point(3, 330);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(300, 23);
+            this.label19.Size = new System.Drawing.Size(299, 23);
             this.label19.TabIndex = 14;
             this.label19.Text = "Property Destruction";
             // 
@@ -982,7 +982,7 @@
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.Location = new System.Drawing.Point(3, 360);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(300, 23);
+            this.label20.Size = new System.Drawing.Size(299, 23);
             this.label20.TabIndex = 15;
             this.label20.Text = "Seizure Occurrences";
             // 
@@ -991,7 +991,7 @@
             this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label21.Location = new System.Drawing.Point(3, 390);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(300, 23);
+            this.label21.Size = new System.Drawing.Size(299, 23);
             this.label21.TabIndex = 16;
             this.label21.Text = "ER Visits or Hospital Admission for Toxicity";
             // 
@@ -1000,7 +1000,7 @@
             this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.Location = new System.Drawing.Point(3, 420);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(300, 23);
+            this.label22.Size = new System.Drawing.Size(299, 23);
             this.label22.TabIndex = 17;
             this.label22.Text = "Injuries";
             // 
@@ -1009,7 +1009,7 @@
             this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label23.Location = new System.Drawing.Point(3, 450);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(300, 23);
+            this.label23.Size = new System.Drawing.Size(299, 23);
             this.label23.TabIndex = 18;
             this.label23.Text = "Falls";
             // 
@@ -1018,7 +1018,7 @@
             this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label24.Location = new System.Drawing.Point(3, 480);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(300, 23);
+            this.label24.Size = new System.Drawing.Size(299, 23);
             this.label24.TabIndex = 19;
             this.label24.Text = "Doctor Visits(Excludes follow-up, check-up visits)";
             // 
@@ -1027,7 +1027,7 @@
             this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.Location = new System.Drawing.Point(3, 510);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(300, 23);
+            this.label25.Size = new System.Drawing.Size(299, 23);
             this.label25.TabIndex = 20;
             this.label25.Text = "Body Check";
             // 
@@ -1036,7 +1036,7 @@
             this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label26.Location = new System.Drawing.Point(3, 540);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(300, 23);
+            this.label26.Size = new System.Drawing.Size(299, 23);
             this.label26.TabIndex = 21;
             this.label26.Text = "Attention Seeking Behavior";
             // 
@@ -1045,7 +1045,7 @@
             this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label27.Location = new System.Drawing.Point(3, 570);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(300, 23);
+            this.label27.Size = new System.Drawing.Size(299, 23);
             this.label27.TabIndex = 22;
             this.label27.Text = "Incidents";
             // 
@@ -1054,7 +1054,7 @@
             this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label28.Location = new System.Drawing.Point(3, 600);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(300, 23);
+            this.label28.Size = new System.Drawing.Size(299, 23);
             this.label28.TabIndex = 23;
             this.label28.Text = "ER Visits";
             // 
@@ -1063,7 +1063,7 @@
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(3, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(300, 23);
+            this.label5.Size = new System.Drawing.Size(299, 23);
             this.label5.TabIndex = 0;
             this.label5.Text = "DATA";
             // 
@@ -1085,9 +1085,9 @@
             this.domainUpDown10.Items.Add("1) Treatment for broken skin");
             this.domainUpDown10.Items.Add("2) On-going treatment");
             this.domainUpDown10.Items.Add("3) Resolved treatment for broken skin");
-            this.domainUpDown10.Location = new System.Drawing.Point(309, 33);
+            this.domainUpDown10.Location = new System.Drawing.Point(308, 33);
             this.domainUpDown10.Name = "domainUpDown10";
-            this.domainUpDown10.Size = new System.Drawing.Size(213, 26);
+            this.domainUpDown10.Size = new System.Drawing.Size(212, 26);
             this.domainUpDown10.TabIndex = 34;
             this.domainUpDown10.Text = "choose...";
             // 
@@ -1099,9 +1099,9 @@
             this.domainUpDown1.Items.Add("1) Treatment for broken skin");
             this.domainUpDown1.Items.Add("2) On-going treatment");
             this.domainUpDown1.Items.Add("3) Resolved treatment for broken skin");
-            this.domainUpDown1.Location = new System.Drawing.Point(309, 63);
+            this.domainUpDown1.Location = new System.Drawing.Point(308, 63);
             this.domainUpDown1.Name = "domainUpDown1";
-            this.domainUpDown1.Size = new System.Drawing.Size(213, 26);
+            this.domainUpDown1.Size = new System.Drawing.Size(212, 26);
             this.domainUpDown1.TabIndex = 35;
             this.domainUpDown1.Text = "choose...";
             // 
@@ -1113,9 +1113,9 @@
             this.domainUpDown2.Items.Add("1) Treatment for broken skin");
             this.domainUpDown2.Items.Add("2) On-going treatment");
             this.domainUpDown2.Items.Add("3) Resolved treatment for broken skin");
-            this.domainUpDown2.Location = new System.Drawing.Point(309, 93);
+            this.domainUpDown2.Location = new System.Drawing.Point(308, 93);
             this.domainUpDown2.Name = "domainUpDown2";
-            this.domainUpDown2.Size = new System.Drawing.Size(213, 26);
+            this.domainUpDown2.Size = new System.Drawing.Size(212, 26);
             this.domainUpDown2.TabIndex = 36;
             this.domainUpDown2.Text = "choose...";
             // 
@@ -1127,9 +1127,9 @@
             this.domainUpDown4.Items.Add("1) Treatment for broken skin");
             this.domainUpDown4.Items.Add("2) On-going treatment");
             this.domainUpDown4.Items.Add("3) Resolved treatment for broken skin");
-            this.domainUpDown4.Location = new System.Drawing.Point(309, 123);
+            this.domainUpDown4.Location = new System.Drawing.Point(308, 123);
             this.domainUpDown4.Name = "domainUpDown4";
-            this.domainUpDown4.Size = new System.Drawing.Size(213, 26);
+            this.domainUpDown4.Size = new System.Drawing.Size(212, 26);
             this.domainUpDown4.TabIndex = 38;
             this.domainUpDown4.Text = "choose...";
             // 
@@ -1141,9 +1141,9 @@
             this.domainUpDown3.Items.Add("1) Treatment for broken skin");
             this.domainUpDown3.Items.Add("2) On-going treatment");
             this.domainUpDown3.Items.Add("3) Resolved treatment for broken skin");
-            this.domainUpDown3.Location = new System.Drawing.Point(309, 153);
+            this.domainUpDown3.Location = new System.Drawing.Point(308, 153);
             this.domainUpDown3.Name = "domainUpDown3";
-            this.domainUpDown3.Size = new System.Drawing.Size(213, 26);
+            this.domainUpDown3.Size = new System.Drawing.Size(212, 26);
             this.domainUpDown3.TabIndex = 37;
             this.domainUpDown3.Text = "choose...";
             // 
@@ -1155,9 +1155,9 @@
             this.domainUpDown5.Items.Add("1) Treatment for broken skin");
             this.domainUpDown5.Items.Add("2) On-going treatment");
             this.domainUpDown5.Items.Add("3) Resolved treatment for broken skin");
-            this.domainUpDown5.Location = new System.Drawing.Point(309, 183);
+            this.domainUpDown5.Location = new System.Drawing.Point(308, 183);
             this.domainUpDown5.Name = "domainUpDown5";
-            this.domainUpDown5.Size = new System.Drawing.Size(213, 26);
+            this.domainUpDown5.Size = new System.Drawing.Size(212, 26);
             this.domainUpDown5.TabIndex = 39;
             this.domainUpDown5.Text = "choose...";
             // 
@@ -1169,9 +1169,9 @@
             this.domainUpDown6.Items.Add("1) Treatment for broken skin");
             this.domainUpDown6.Items.Add("2) On-going treatment");
             this.domainUpDown6.Items.Add("3) Resolved treatment for broken skin");
-            this.domainUpDown6.Location = new System.Drawing.Point(309, 243);
+            this.domainUpDown6.Location = new System.Drawing.Point(308, 243);
             this.domainUpDown6.Name = "domainUpDown6";
-            this.domainUpDown6.Size = new System.Drawing.Size(213, 26);
+            this.domainUpDown6.Size = new System.Drawing.Size(212, 26);
             this.domainUpDown6.TabIndex = 40;
             this.domainUpDown6.Text = "choose...";
             // 
@@ -1183,9 +1183,9 @@
             this.domainUpDown8.Items.Add("1) Treatment for broken skin");
             this.domainUpDown8.Items.Add("2) On-going treatment");
             this.domainUpDown8.Items.Add("3) Resolved treatment for broken skin");
-            this.domainUpDown8.Location = new System.Drawing.Point(309, 213);
+            this.domainUpDown8.Location = new System.Drawing.Point(308, 213);
             this.domainUpDown8.Name = "domainUpDown8";
-            this.domainUpDown8.Size = new System.Drawing.Size(213, 26);
+            this.domainUpDown8.Size = new System.Drawing.Size(212, 26);
             this.domainUpDown8.TabIndex = 42;
             this.domainUpDown8.Text = "choose...";
             // 
@@ -1197,9 +1197,9 @@
             this.domainUpDown7.Items.Add("1) Treatment for broken skin");
             this.domainUpDown7.Items.Add("2) On-going treatment");
             this.domainUpDown7.Items.Add("3) Resolved treatment for broken skin");
-            this.domainUpDown7.Location = new System.Drawing.Point(309, 273);
+            this.domainUpDown7.Location = new System.Drawing.Point(308, 273);
             this.domainUpDown7.Name = "domainUpDown7";
-            this.domainUpDown7.Size = new System.Drawing.Size(213, 26);
+            this.domainUpDown7.Size = new System.Drawing.Size(212, 26);
             this.domainUpDown7.TabIndex = 41;
             this.domainUpDown7.Text = "choose...";
             // 
@@ -1211,9 +1211,9 @@
             this.domainUpDown11.Items.Add("1) Treatment for broken skin");
             this.domainUpDown11.Items.Add("2) On-going treatment");
             this.domainUpDown11.Items.Add("3) Resolved treatment for broken skin");
-            this.domainUpDown11.Location = new System.Drawing.Point(309, 303);
+            this.domainUpDown11.Location = new System.Drawing.Point(308, 303);
             this.domainUpDown11.Name = "domainUpDown11";
-            this.domainUpDown11.Size = new System.Drawing.Size(213, 26);
+            this.domainUpDown11.Size = new System.Drawing.Size(212, 26);
             this.domainUpDown11.TabIndex = 44;
             this.domainUpDown11.Text = "choose...";
             // 
@@ -1225,9 +1225,9 @@
             this.domainUpDown9.Items.Add("1) Treatment for broken skin");
             this.domainUpDown9.Items.Add("2) On-going treatment");
             this.domainUpDown9.Items.Add("3) Resolved treatment for broken skin");
-            this.domainUpDown9.Location = new System.Drawing.Point(309, 333);
+            this.domainUpDown9.Location = new System.Drawing.Point(308, 333);
             this.domainUpDown9.Name = "domainUpDown9";
-            this.domainUpDown9.Size = new System.Drawing.Size(213, 26);
+            this.domainUpDown9.Size = new System.Drawing.Size(212, 26);
             this.domainUpDown9.TabIndex = 43;
             this.domainUpDown9.Text = "choose...";
             // 
@@ -1239,9 +1239,9 @@
             this.domainUpDown12.Items.Add("1) Treatment for broken skin");
             this.domainUpDown12.Items.Add("2) On-going treatment");
             this.domainUpDown12.Items.Add("3) Resolved treatment for broken skin");
-            this.domainUpDown12.Location = new System.Drawing.Point(309, 363);
+            this.domainUpDown12.Location = new System.Drawing.Point(308, 363);
             this.domainUpDown12.Name = "domainUpDown12";
-            this.domainUpDown12.Size = new System.Drawing.Size(213, 26);
+            this.domainUpDown12.Size = new System.Drawing.Size(212, 26);
             this.domainUpDown12.TabIndex = 45;
             this.domainUpDown12.Text = "choose...";
             // 
@@ -1253,9 +1253,9 @@
             this.domainUpDown13.Items.Add("1) Treatment for broken skin");
             this.domainUpDown13.Items.Add("2) On-going treatment");
             this.domainUpDown13.Items.Add("3) Resolved treatment for broken skin");
-            this.domainUpDown13.Location = new System.Drawing.Point(309, 393);
+            this.domainUpDown13.Location = new System.Drawing.Point(308, 393);
             this.domainUpDown13.Name = "domainUpDown13";
-            this.domainUpDown13.Size = new System.Drawing.Size(213, 26);
+            this.domainUpDown13.Size = new System.Drawing.Size(212, 26);
             this.domainUpDown13.TabIndex = 46;
             this.domainUpDown13.Text = "choose...";
             // 
@@ -1267,9 +1267,9 @@
             this.domainUpDown15.Items.Add("1) Treatment for broken skin");
             this.domainUpDown15.Items.Add("2) On-going treatment");
             this.domainUpDown15.Items.Add("3) Resolved treatment for broken skin");
-            this.domainUpDown15.Location = new System.Drawing.Point(309, 423);
+            this.domainUpDown15.Location = new System.Drawing.Point(308, 423);
             this.domainUpDown15.Name = "domainUpDown15";
-            this.domainUpDown15.Size = new System.Drawing.Size(213, 26);
+            this.domainUpDown15.Size = new System.Drawing.Size(212, 26);
             this.domainUpDown15.TabIndex = 48;
             this.domainUpDown15.Text = "choose...";
             // 
@@ -1281,9 +1281,9 @@
             this.domainUpDown14.Items.Add("1) Treatment for broken skin");
             this.domainUpDown14.Items.Add("2) On-going treatment");
             this.domainUpDown14.Items.Add("3) Resolved treatment for broken skin");
-            this.domainUpDown14.Location = new System.Drawing.Point(309, 453);
+            this.domainUpDown14.Location = new System.Drawing.Point(308, 453);
             this.domainUpDown14.Name = "domainUpDown14";
-            this.domainUpDown14.Size = new System.Drawing.Size(213, 26);
+            this.domainUpDown14.Size = new System.Drawing.Size(212, 26);
             this.domainUpDown14.TabIndex = 47;
             this.domainUpDown14.Text = "choose...";
             // 
@@ -1295,9 +1295,9 @@
             this.domainUpDown16.Items.Add("1) Treatment for broken skin");
             this.domainUpDown16.Items.Add("2) On-going treatment");
             this.domainUpDown16.Items.Add("3) Resolved treatment for broken skin");
-            this.domainUpDown16.Location = new System.Drawing.Point(309, 483);
+            this.domainUpDown16.Location = new System.Drawing.Point(308, 483);
             this.domainUpDown16.Name = "domainUpDown16";
-            this.domainUpDown16.Size = new System.Drawing.Size(213, 26);
+            this.domainUpDown16.Size = new System.Drawing.Size(212, 26);
             this.domainUpDown16.TabIndex = 49;
             this.domainUpDown16.Text = "choose...";
             // 
@@ -1309,9 +1309,9 @@
             this.domainUpDown18.Items.Add("1) Treatment for broken skin");
             this.domainUpDown18.Items.Add("2) On-going treatment");
             this.domainUpDown18.Items.Add("3) Resolved treatment for broken skin");
-            this.domainUpDown18.Location = new System.Drawing.Point(309, 513);
+            this.domainUpDown18.Location = new System.Drawing.Point(308, 513);
             this.domainUpDown18.Name = "domainUpDown18";
-            this.domainUpDown18.Size = new System.Drawing.Size(213, 26);
+            this.domainUpDown18.Size = new System.Drawing.Size(212, 26);
             this.domainUpDown18.TabIndex = 51;
             this.domainUpDown18.Text = "choose...";
             // 
@@ -1323,9 +1323,9 @@
             this.domainUpDown20.Items.Add("1) Treatment for broken skin");
             this.domainUpDown20.Items.Add("2) On-going treatment");
             this.domainUpDown20.Items.Add("3) Resolved treatment for broken skin");
-            this.domainUpDown20.Location = new System.Drawing.Point(309, 543);
+            this.domainUpDown20.Location = new System.Drawing.Point(308, 543);
             this.domainUpDown20.Name = "domainUpDown20";
-            this.domainUpDown20.Size = new System.Drawing.Size(213, 26);
+            this.domainUpDown20.Size = new System.Drawing.Size(212, 26);
             this.domainUpDown20.TabIndex = 53;
             this.domainUpDown20.Text = "choose...";
             // 
@@ -1337,9 +1337,9 @@
             this.domainUpDown17.Items.Add("1) Treatment for broken skin");
             this.domainUpDown17.Items.Add("2) On-going treatment");
             this.domainUpDown17.Items.Add("3) Resolved treatment for broken skin");
-            this.domainUpDown17.Location = new System.Drawing.Point(309, 573);
+            this.domainUpDown17.Location = new System.Drawing.Point(308, 573);
             this.domainUpDown17.Name = "domainUpDown17";
-            this.domainUpDown17.Size = new System.Drawing.Size(213, 26);
+            this.domainUpDown17.Size = new System.Drawing.Size(212, 26);
             this.domainUpDown17.TabIndex = 50;
             this.domainUpDown17.Text = "choose...";
             // 
@@ -1351,9 +1351,9 @@
             this.domainUpDown21.Items.Add("1) Treatment for broken skin");
             this.domainUpDown21.Items.Add("2) On-going treatment");
             this.domainUpDown21.Items.Add("3) Resolved treatment for broken skin");
-            this.domainUpDown21.Location = new System.Drawing.Point(309, 603);
+            this.domainUpDown21.Location = new System.Drawing.Point(308, 603);
             this.domainUpDown21.Name = "domainUpDown21";
-            this.domainUpDown21.Size = new System.Drawing.Size(213, 26);
+            this.domainUpDown21.Size = new System.Drawing.Size(212, 26);
             this.domainUpDown21.TabIndex = 54;
             this.domainUpDown21.Text = "choose...";
             // 
@@ -1365,16 +1365,16 @@
             this.domainUpDown19.Items.Add("1) Treatment for broken skin");
             this.domainUpDown19.Items.Add("2) On-going treatment");
             this.domainUpDown19.Items.Add("3) Resolved treatment for broken skin");
-            this.domainUpDown19.Location = new System.Drawing.Point(309, 633);
+            this.domainUpDown19.Location = new System.Drawing.Point(308, 633);
             this.domainUpDown19.Name = "domainUpDown19";
-            this.domainUpDown19.Size = new System.Drawing.Size(213, 26);
+            this.domainUpDown19.Size = new System.Drawing.Size(212, 26);
             this.domainUpDown19.TabIndex = 52;
             this.domainUpDown19.Text = "choose...";
             // 
             // label8
             // 
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(870, 0);
+            this.label8.Location = new System.Drawing.Point(867, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(100, 23);
             this.label8.TabIndex = 3;
@@ -1384,7 +1384,7 @@
             // 
             this.label30.AutoSize = true;
             this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(713, 0);
+            this.label30.Location = new System.Drawing.Point(710, 0);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(44, 20);
             this.label30.TabIndex = 55;
@@ -1399,9 +1399,9 @@
             this.domainUpDown23.Items.Add("2) Easily managed by diet/supplement");
             this.domainUpDown23.Items.Add("3) On-going preventative management");
             this.domainUpDown23.Items.Add("4) Hospital admission for impaction/obstruction");
-            this.domainUpDown23.Location = new System.Drawing.Point(528, 273);
+            this.domainUpDown23.Location = new System.Drawing.Point(526, 273);
             this.domainUpDown23.Name = "domainUpDown23";
-            this.domainUpDown23.Size = new System.Drawing.Size(179, 26);
+            this.domainUpDown23.Size = new System.Drawing.Size(178, 26);
             this.domainUpDown23.TabIndex = 57;
             this.domainUpDown23.Text = "choose...";
             // 
@@ -1414,9 +1414,9 @@
             this.domainUpDown26.Items.Add("2) Easily managed by diet/supplement");
             this.domainUpDown26.Items.Add("3) On-going preventative management");
             this.domainUpDown26.Items.Add("4) Hospital admission for impaction/obstruction");
-            this.domainUpDown26.Location = new System.Drawing.Point(528, 303);
+            this.domainUpDown26.Location = new System.Drawing.Point(526, 303);
             this.domainUpDown26.Name = "domainUpDown26";
-            this.domainUpDown26.Size = new System.Drawing.Size(179, 26);
+            this.domainUpDown26.Size = new System.Drawing.Size(178, 26);
             this.domainUpDown26.TabIndex = 60;
             this.domainUpDown26.Text = "choose...";
             // 
@@ -1429,9 +1429,9 @@
             this.domainUpDown29.Items.Add("2) Easily managed by diet/supplement");
             this.domainUpDown29.Items.Add("3) On-going preventative management");
             this.domainUpDown29.Items.Add("4) Hospital admission for impaction/obstruction");
-            this.domainUpDown29.Location = new System.Drawing.Point(528, 333);
+            this.domainUpDown29.Location = new System.Drawing.Point(526, 333);
             this.domainUpDown29.Name = "domainUpDown29";
-            this.domainUpDown29.Size = new System.Drawing.Size(179, 26);
+            this.domainUpDown29.Size = new System.Drawing.Size(178, 26);
             this.domainUpDown29.TabIndex = 63;
             this.domainUpDown29.Text = "choose...";
             // 
@@ -1444,9 +1444,9 @@
             this.domainUpDown32.Items.Add("2) Easily managed by diet/supplement");
             this.domainUpDown32.Items.Add("3) On-going preventative management");
             this.domainUpDown32.Items.Add("4) Hospital admission for impaction/obstruction");
-            this.domainUpDown32.Location = new System.Drawing.Point(528, 363);
+            this.domainUpDown32.Location = new System.Drawing.Point(526, 363);
             this.domainUpDown32.Name = "domainUpDown32";
-            this.domainUpDown32.Size = new System.Drawing.Size(179, 26);
+            this.domainUpDown32.Size = new System.Drawing.Size(178, 26);
             this.domainUpDown32.TabIndex = 66;
             this.domainUpDown32.Text = "choose...";
             // 
@@ -1459,9 +1459,9 @@
             this.domainUpDown35.Items.Add("2) Easily managed by diet/supplement");
             this.domainUpDown35.Items.Add("3) On-going preventative management");
             this.domainUpDown35.Items.Add("4) Hospital admission for impaction/obstruction");
-            this.domainUpDown35.Location = new System.Drawing.Point(528, 393);
+            this.domainUpDown35.Location = new System.Drawing.Point(526, 393);
             this.domainUpDown35.Name = "domainUpDown35";
-            this.domainUpDown35.Size = new System.Drawing.Size(179, 26);
+            this.domainUpDown35.Size = new System.Drawing.Size(178, 26);
             this.domainUpDown35.TabIndex = 69;
             this.domainUpDown35.Text = "choose...";
             // 
@@ -1474,9 +1474,9 @@
             this.domainUpDown38.Items.Add("2) Easily managed by diet/supplement");
             this.domainUpDown38.Items.Add("3) On-going preventative management");
             this.domainUpDown38.Items.Add("4) Hospital admission for impaction/obstruction");
-            this.domainUpDown38.Location = new System.Drawing.Point(528, 423);
+            this.domainUpDown38.Location = new System.Drawing.Point(526, 423);
             this.domainUpDown38.Name = "domainUpDown38";
-            this.domainUpDown38.Size = new System.Drawing.Size(179, 26);
+            this.domainUpDown38.Size = new System.Drawing.Size(178, 26);
             this.domainUpDown38.TabIndex = 72;
             this.domainUpDown38.Text = "choose...";
             // 
@@ -1489,9 +1489,9 @@
             this.domainUpDown41.Items.Add("2) Easily managed by diet/supplement");
             this.domainUpDown41.Items.Add("3) On-going preventative management");
             this.domainUpDown41.Items.Add("4) Hospital admission for impaction/obstruction");
-            this.domainUpDown41.Location = new System.Drawing.Point(528, 453);
+            this.domainUpDown41.Location = new System.Drawing.Point(526, 453);
             this.domainUpDown41.Name = "domainUpDown41";
-            this.domainUpDown41.Size = new System.Drawing.Size(179, 26);
+            this.domainUpDown41.Size = new System.Drawing.Size(178, 26);
             this.domainUpDown41.TabIndex = 75;
             this.domainUpDown41.Text = "choose...";
             // 
@@ -1504,9 +1504,9 @@
             this.domainUpDown44.Items.Add("2) Easily managed by diet/supplement");
             this.domainUpDown44.Items.Add("3) On-going preventative management");
             this.domainUpDown44.Items.Add("4) Hospital admission for impaction/obstruction");
-            this.domainUpDown44.Location = new System.Drawing.Point(528, 483);
+            this.domainUpDown44.Location = new System.Drawing.Point(526, 483);
             this.domainUpDown44.Name = "domainUpDown44";
-            this.domainUpDown44.Size = new System.Drawing.Size(179, 26);
+            this.domainUpDown44.Size = new System.Drawing.Size(178, 26);
             this.domainUpDown44.TabIndex = 78;
             this.domainUpDown44.Text = "choose...";
             // 
@@ -1519,9 +1519,9 @@
             this.domainUpDown42.Items.Add("2) Easily managed by diet/supplement");
             this.domainUpDown42.Items.Add("3) On-going preventative management");
             this.domainUpDown42.Items.Add("4) Hospital admission for impaction/obstruction");
-            this.domainUpDown42.Location = new System.Drawing.Point(528, 513);
+            this.domainUpDown42.Location = new System.Drawing.Point(526, 513);
             this.domainUpDown42.Name = "domainUpDown42";
-            this.domainUpDown42.Size = new System.Drawing.Size(179, 26);
+            this.domainUpDown42.Size = new System.Drawing.Size(178, 26);
             this.domainUpDown42.TabIndex = 76;
             this.domainUpDown42.Text = "choose...";
             // 
@@ -1534,9 +1534,9 @@
             this.domainUpDown33.Items.Add("2) Easily managed by diet/supplement");
             this.domainUpDown33.Items.Add("3) On-going preventative management");
             this.domainUpDown33.Items.Add("4) Hospital admission for impaction/obstruction");
-            this.domainUpDown33.Location = new System.Drawing.Point(528, 543);
+            this.domainUpDown33.Location = new System.Drawing.Point(526, 543);
             this.domainUpDown33.Name = "domainUpDown33";
-            this.domainUpDown33.Size = new System.Drawing.Size(179, 26);
+            this.domainUpDown33.Size = new System.Drawing.Size(178, 26);
             this.domainUpDown33.TabIndex = 67;
             this.domainUpDown33.Text = "choose...";
             // 
@@ -1549,9 +1549,9 @@
             this.domainUpDown36.Items.Add("2) Easily managed by diet/supplement");
             this.domainUpDown36.Items.Add("3) On-going preventative management");
             this.domainUpDown36.Items.Add("4) Hospital admission for impaction/obstruction");
-            this.domainUpDown36.Location = new System.Drawing.Point(528, 573);
+            this.domainUpDown36.Location = new System.Drawing.Point(526, 573);
             this.domainUpDown36.Name = "domainUpDown36";
-            this.domainUpDown36.Size = new System.Drawing.Size(179, 26);
+            this.domainUpDown36.Size = new System.Drawing.Size(178, 26);
             this.domainUpDown36.TabIndex = 70;
             this.domainUpDown36.Text = "choose...";
             // 
@@ -1564,9 +1564,9 @@
             this.domainUpDown39.Items.Add("2) Easily managed by diet/supplement");
             this.domainUpDown39.Items.Add("3) On-going preventative management");
             this.domainUpDown39.Items.Add("4) Hospital admission for impaction/obstruction");
-            this.domainUpDown39.Location = new System.Drawing.Point(528, 603);
+            this.domainUpDown39.Location = new System.Drawing.Point(526, 603);
             this.domainUpDown39.Name = "domainUpDown39";
-            this.domainUpDown39.Size = new System.Drawing.Size(179, 26);
+            this.domainUpDown39.Size = new System.Drawing.Size(178, 26);
             this.domainUpDown39.TabIndex = 73;
             this.domainUpDown39.Text = "choose...";
             // 
@@ -1579,16 +1579,16 @@
             this.domainUpDown30.Items.Add("2) Easily managed by diet/supplement");
             this.domainUpDown30.Items.Add("3) On-going preventative management");
             this.domainUpDown30.Items.Add("4) Hospital admission for impaction/obstruction");
-            this.domainUpDown30.Location = new System.Drawing.Point(528, 633);
+            this.domainUpDown30.Location = new System.Drawing.Point(526, 633);
             this.domainUpDown30.Name = "domainUpDown30";
-            this.domainUpDown30.Size = new System.Drawing.Size(179, 26);
+            this.domainUpDown30.Size = new System.Drawing.Size(178, 26);
             this.domainUpDown30.TabIndex = 64;
             this.domainUpDown30.Text = "choose...";
             // 
             // dateTimePicker1
             // 
             this.dateTimePicker1.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(713, 33);
+            this.dateTimePicker1.Location = new System.Drawing.Point(710, 33);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(151, 20);
             this.dateTimePicker1.TabIndex = 79;
@@ -1596,7 +1596,7 @@
             // dateTimePicker26
             // 
             this.dateTimePicker26.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker26.Location = new System.Drawing.Point(713, 453);
+            this.dateTimePicker26.Location = new System.Drawing.Point(710, 453);
             this.dateTimePicker26.Name = "dateTimePicker26";
             this.dateTimePicker26.Size = new System.Drawing.Size(151, 20);
             this.dateTimePicker26.TabIndex = 104;
@@ -1604,7 +1604,7 @@
             // dateTimePicker24
             // 
             this.dateTimePicker24.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker24.Location = new System.Drawing.Point(713, 483);
+            this.dateTimePicker24.Location = new System.Drawing.Point(710, 483);
             this.dateTimePicker24.Name = "dateTimePicker24";
             this.dateTimePicker24.Size = new System.Drawing.Size(151, 20);
             this.dateTimePicker24.TabIndex = 102;
@@ -1612,7 +1612,7 @@
             // dateTimePicker22
             // 
             this.dateTimePicker22.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker22.Location = new System.Drawing.Point(713, 513);
+            this.dateTimePicker22.Location = new System.Drawing.Point(710, 513);
             this.dateTimePicker22.Name = "dateTimePicker22";
             this.dateTimePicker22.Size = new System.Drawing.Size(151, 20);
             this.dateTimePicker22.TabIndex = 100;
@@ -1620,7 +1620,7 @@
             // dateTimePicker20
             // 
             this.dateTimePicker20.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker20.Location = new System.Drawing.Point(713, 543);
+            this.dateTimePicker20.Location = new System.Drawing.Point(710, 543);
             this.dateTimePicker20.Name = "dateTimePicker20";
             this.dateTimePicker20.Size = new System.Drawing.Size(151, 20);
             this.dateTimePicker20.TabIndex = 98;
@@ -1628,7 +1628,7 @@
             // dateTimePicker18
             // 
             this.dateTimePicker18.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker18.Location = new System.Drawing.Point(713, 573);
+            this.dateTimePicker18.Location = new System.Drawing.Point(710, 573);
             this.dateTimePicker18.Name = "dateTimePicker18";
             this.dateTimePicker18.Size = new System.Drawing.Size(151, 20);
             this.dateTimePicker18.TabIndex = 96;
@@ -1636,7 +1636,7 @@
             // dateTimePicker16
             // 
             this.dateTimePicker16.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker16.Location = new System.Drawing.Point(713, 603);
+            this.dateTimePicker16.Location = new System.Drawing.Point(710, 603);
             this.dateTimePicker16.Name = "dateTimePicker16";
             this.dateTimePicker16.Size = new System.Drawing.Size(151, 20);
             this.dateTimePicker16.TabIndex = 94;
@@ -1644,7 +1644,7 @@
             // dateTimePicker14
             // 
             this.dateTimePicker14.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker14.Location = new System.Drawing.Point(713, 633);
+            this.dateTimePicker14.Location = new System.Drawing.Point(710, 633);
             this.dateTimePicker14.Name = "dateTimePicker14";
             this.dateTimePicker14.Size = new System.Drawing.Size(151, 20);
             this.dateTimePicker14.TabIndex = 92;
@@ -1653,7 +1653,7 @@
             // 
             this.numericUpDown1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDown1.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.numericUpDown1.Location = new System.Drawing.Point(870, 33);
+            this.numericUpDown1.Location = new System.Drawing.Point(867, 33);
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(114, 26);
             this.numericUpDown1.TabIndex = 106;
@@ -1721,6 +1721,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
+            this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(1362, 741);
             this.Controls.Add(this.dateTimePicker2);
             this.Controls.Add(this.label31);

@@ -547,6 +547,7 @@
             // 
             // objective2_rtb
             // 
+            this.objective2_rtb.AutoWordSelection = true;
             this.objective2_rtb.ContextMenuStrip = this.contextMenuStrip2;
             this.objective2_rtb.Location = new System.Drawing.Point(876, 206);
             this.objective2_rtb.Name = "objective2_rtb";
@@ -867,7 +868,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkKhaki;
+            this.BackColor = System.Drawing.Color.Lavender;
             this.ClientSize = new System.Drawing.Size(1290, 680);
             this.Controls.Add(this.comboBox4);
             this.Controls.Add(this.comboBox3);
